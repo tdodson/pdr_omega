@@ -1,0 +1,83 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* Text & Header Styling */
+body {
+	font-family: Georgia, "Chaparral Pro", "Times New Roman", Times, serif;
+	font-weight: 300;
+	color: #333;
+	background:url(../images/bk_body.png);
+}
+
+p {
+	font-size: 125%; /* 16px in Chrome for Mac */
+	line-height: 150%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+}
+
+h1.title {
+	font-size: 2.75em; /* approx 36px */
+}
+
+h1 {
+	font-size: 1.355em;
+}
+
+h2.block-title {
+	font-size: 1.355em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1.15em;
+}
+
+/* Link Styling */
+a:link {
+	text-decoration:none;
+	color:#991F1F;
+}
+
+a:hover, a:active {
+	text-decoration:underline;
+}
+
+a:focus {
+	outline: none;
+}
+
+a:visited {
+	color: #841b1b; /* darker */
+}
+
+/* Additional Text Styling */
+.smallcaps {
+	font-variant: small-caps;
+}
+
+blockquote {
+	border-left:1px dashed #AAAAAA;
+	color:#555;
+	font-style:italic;
+	line-height:18px;
+	margin:15px 0 15px 20px;
+	padding-left:20px;
+}
+
+/* Staff Pics */
+img.staffpic  {
+	float: left;
+	padding: 0px 15px 0px 0px;
+	background: none;
+}
