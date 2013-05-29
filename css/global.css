@@ -1,83 +1,96 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
-
-/* Text & Header Styling */
+/* Import SASS Base Partial */
+/* Variables */
+/* line 7, ../sass/global.scss */
 body {
-	font-family: Georgia, "Chaparral Pro", "Times New Roman", Times, serif;
-	font-weight: 300;
-	color: #333;
-	background:url(../images/bk_body.png);
+  font-family: Georgia, "Chaparral Pro", "Times New Roman", Times, serif;
+  color: #333333;
+  font-weight: 300;
+  background: url(../images/bk_body.png);
 }
 
+/* line 14, ../sass/global.scss */
 p {
-	font-size: 125%; /* 16px in Chrome for Mac */
-	line-height: 150%;
+  font-size: 125%;
+  /* 16px in Chrome for Mac */
+  line-height: 150%;
 }
 
+/* line 19, ../sass/global.scss */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight: 700;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
-h1.title {
-	font-size: 2.75em; /* approx 36px */
-}
-
+/* line 24, ../sass/global.scss */
 h1 {
-	font-size: 1.355em;
+  font-size: 1.355em;
+}
+/* line 26, ../sass/global.scss */
+h1.title {
+  font-size: 2.75em;
+  /* approx 36px */
 }
 
-h2.block-title {
-	font-size: 1.355em;
-}
-
+/* line 31, ../sass/global.scss */
 h2 {
-	font-size: 1.3em;
+  font-size: 1.3em;
+}
+/* line 33, ../sass/global.scss */
+h2.block-title {
+  font-size: 1.355em;
 }
 
+/* line 38, ../sass/global.scss */
 h3 {
-	font-size: 1.25em;
+  font-size: 1.25em;
 }
 
+/* line 42, ../sass/global.scss */
 h4 {
-	font-size: 1.15em;
+  font-size: 1.15em;
 }
 
 /* Link Styling */
+/* line 48, ../sass/global.scss */
 a:link {
-	text-decoration:none;
-	color:#991F1F;
+  text-decoration: none;
+  color: #991f1f;
 }
-
+/* line 52, ../sass/global.scss */
 a:hover, a:active {
-	text-decoration:underline;
+  text-decoration: underline;
 }
-
+/* line 55, ../sass/global.scss */
 a:focus {
-	outline: none;
+  outline: none;
 }
-
+/* line 58, ../sass/global.scss */
 a:visited {
-	color: #841b1b; /* darker */
+  color: #841b1b;
 }
 
 /* Additional Text Styling */
+/* line 64, ../sass/global.scss */
 .smallcaps {
-	font-variant: small-caps;
+  font-variant: small-caps;
 }
 
+/* line 68, ../sass/global.scss */
 blockquote {
-	border-left:1px dashed #AAAAAA;
-	color:#555;
-	font-style:italic;
-	line-height:18px;
-	margin:15px 0 15px 20px;
-	padding-left:20px;
+  border-left: 1px dashed #AAAAAA;
+  color: #555;
+  font-style: italic;
+  line-height: 18px;
+  margin: 15px 0 15px 20px;
+  padding-left: 20px;
 }
 
 /* Staff Pics */
-img.staffpic  {
-	float: left;
-	padding: 0px 15px 0px 0px;
-	background: none;
+/* line 78, ../sass/global.scss */
+img.staffpic {
+  float: left;
+  padding: 0px 15px 0px 0px;
+  background: none;
 }
