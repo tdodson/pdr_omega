@@ -3,3 +3,52 @@
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 /* Import SASS Base Partial */
 /* Variables */
+/* line 8, ../sass/pdr-omega-alpha-default-normal.scss */
+p {
+  padding-right: 0.3em;
+}
+
+/* MAIN MENU STYLING */
+/* line 13, ../sass/pdr-omega-alpha-default-normal.scss */
+div#zone-menu-wrapper {
+  border-top: 1px solid #991f1f;
+  border-bottom: 1px solid #991f1f;
+  background-color: #000;
+}
+
+/* line 19, ../sass/pdr-omega-alpha-default-normal.scss */
+#region-menu ul.menu {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  border: none;
+}
+/* line 26, ../sass/pdr-omega-alpha-default-normal.scss */
+#region-menu ul.menu li {
+  /* Unsetting global styles */
+  border-top: none;
+  border-bottom: none;
+  background-color: #000;
+  /* finish unsetting */
+  padding-right: 0;
+  float: left;
+  width: auto;
+}
+/* line 35, ../sass/pdr-omega-alpha-default-normal.scss */
+#region-menu ul.menu li a {
+  display: block;
+  padding: 1.2em 15px 0.5em 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  height: 28px;
+  color: #991f1f;
+  font-weight: 700;
+  overflow: visible;
+}
+/* line 45, ../sass/pdr-omega-alpha-default-normal.scss */
+#region-menu ul.menu li a:hover {
+  background: #991f1f;
+  color: #FFF;
+  text-shadow: 1px 1px #666;
+}

@@ -68,16 +68,45 @@ a:focus {
 }
 /* line 58, ../sass/global.scss */
 a:visited {
-  color: #841b1b;
+  color: #873131;
+}
+
+/* Responsive Images & Embeds */
+/* line 64, ../sass/global.scss */
+img, embed, object, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Menu Positioning */
+/* line 70, ../sass/global.scss */
+div.logo-img {
+  padding: 20px 0px 20px 0px;
+}
+
+/* All Menus Styling */
+/* line 75, ../sass/global.scss */
+#region-menu ul.menu li, #region-branding ul.menu li {
+  list-style-image: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 80, ../sass/global.scss */
+#region-menu ul.menu li a, #region-branding ul.menu li a {
+  display: block;
+  color: #FFF;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 
 /* Additional Text Styling */
-/* line 64, ../sass/global.scss */
+/* line 89, ../sass/global.scss */
 .smallcaps {
   font-variant: small-caps;
 }
 
-/* line 68, ../sass/global.scss */
+/* line 93, ../sass/global.scss */
 blockquote {
   border-left: 1px dashed #AAAAAA;
   color: #555;
@@ -88,7 +117,7 @@ blockquote {
 }
 
 /* Staff Pics */
-/* line 78, ../sass/global.scss */
+/* line 103, ../sass/global.scss */
 img.staffpic {
   float: left;
   padding: 0px 15px 0px 0px;

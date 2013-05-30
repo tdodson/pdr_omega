@@ -56,7 +56,32 @@ a {
 		outline: none;
 	}
 	&:visited {
-		color: #841b1b;
+		color: desaturate($baseRed, 20%);
+	}
+}
+
+/* Responsive Images & Embeds */
+ img, embed, object, video {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Menu Positioning */
+div.logo-img {
+	padding: 20px 0px 20px 0px;
+}
+
+/* All Menus Styling */
+#region-menu ul.menu li, #region-branding ul.menu li {
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	a {
+		display: block;
+		color: #FFF;
+		font-family: $sans;
+		text-decoration: none;
 	}
 }
 
