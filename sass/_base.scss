@@ -1,6 +1,20 @@
 /* Variables */
 $baseRed: #991F1F;
 $grey: #333;
+$opac_black: rgba(0,0,0,0.8);
 $wall: url(../images/bk_body.png);
 $serif: Georgia, "Chaparral Pro", "Times New Roman", Times, serif;
 $sans: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+/* Mix-ins */
+@mixin icon {
+	font-family: 'bkp';
+	font-size: 24px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}

@@ -5,3 +5,22 @@
 
  /* Import SASS Base Partial */
 @import "base";
+
+#region-user-second ul {
+	float: none;
+	padding: 49px 0 0 0;
+}
+
+/* Button Show */
+button#submitbtn {
+	display: inline;
+}
+
+button#currentbtn {
+	display: inline;
+}
+
+/*** REGION & ZONE POSITIONING ***/
+#block-search-form {
+	padding-top: 10px;
+}

@@ -2,7 +2,30 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* Import SASS Base Partial */
 /* Variables */
-/* line 7, ../sass/global.scss */
+/* Mix-ins */
+/* Icon Font */
+@font-face {
+  font-family: 'bkp';
+  src: url("../fonts/bkp.eot");
+  src: url("../fonts/bkp.eot?#iefix") format("embedded-opentype"), url("../fonts/bkp.woff") format("woff"), url("../fonts/bkp.ttf") format("truetype"), url("../fonts/bkp.svg#bkp") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 19, ../sass/global.scss */
+p.icon {
+  font-family: 'bkp';
+  font-size: 24px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 23, ../sass/global.scss */
 body {
   font-family: Georgia, "Chaparral Pro", "Times New Roman", Times, serif;
   color: #333333;
@@ -10,89 +33,133 @@ body {
   background: url(../images/bk_body.png);
 }
 
-/* line 14, ../sass/global.scss */
+/* line 30, ../sass/global.scss */
 p {
   font-size: 125%;
   /* 16px in Chrome for Mac */
   line-height: 150%;
 }
 
-/* line 19, ../sass/global.scss */
+/* line 35, ../sass/global.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
-/* line 24, ../sass/global.scss */
+/* line 40, ../sass/global.scss */
 h1 {
   font-size: 1.355em;
 }
-/* line 26, ../sass/global.scss */
+/* line 42, ../sass/global.scss */
 h1.title {
   font-size: 2.75em;
   /* approx 36px */
 }
 
-/* line 31, ../sass/global.scss */
+/* line 47, ../sass/global.scss */
 h2 {
   font-size: 1.3em;
 }
-/* line 33, ../sass/global.scss */
+/* line 49, ../sass/global.scss */
 h2.block-title {
-  font-size: 1.355em;
+  font-size: 1.5em;
+  padding-bottom: 0.4em;
 }
 
-/* line 38, ../sass/global.scss */
+/* line 55, ../sass/global.scss */
 h3 {
   font-size: 1.25em;
 }
 
-/* line 42, ../sass/global.scss */
+/* line 59, ../sass/global.scss */
 h4 {
   font-size: 1.15em;
 }
 
 /* Link Styling */
-/* line 48, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 a:link {
   text-decoration: none;
   color: #991f1f;
 }
-/* line 52, ../sass/global.scss */
+/* line 69, ../sass/global.scss */
 a:hover, a:active {
   text-decoration: underline;
 }
-/* line 55, ../sass/global.scss */
+/* line 72, ../sass/global.scss */
 a:focus {
   outline: none;
 }
-/* line 58, ../sass/global.scss */
+/* line 75, ../sass/global.scss */
 a:visited {
   color: #873131;
 }
 
+/*** Sidebar Styling ***/
+/* line 82, ../sass/global.scss */
+#region-sidebar-second .block {
+  padding-bottom: 1.5em;
+}
+
+/* line 86, ../sass/global.scss */
+#region-sidebar-second .followus p.icon {
+  font-size: 32px;
+  display: inline;
+  padding-right: 0.6em;
+  color: #991f1f;
+}
+
+/* Issue Sidebars Styling */
+/* line 95, ../sass/global.scss */
+#region-sidebar-first .issue h2, #region-sidebar-second .issue h2 {
+  font-variant: small-caps;
+  font-size: 1.25em;
+  border-bottom: 2px solid #991f1f;
+}
+/* line 100, ../sass/global.scss */
+#region-sidebar-first .issue p, #region-sidebar-second .issue p {
+  font-size: 1.1em;
+  line-height: 175%;
+  padding: 0;
+  margin: 0;
+}
+/* line 105, ../sass/global.scss */
+#region-sidebar-first .issue p.ind, #region-sidebar-second .issue p.ind {
+  padding-left: 1.5em;
+}
+/* line 108, ../sass/global.scss */
+#region-sidebar-first .issue p.ind2, #region-sidebar-second .issue p.ind2 {
+  padding-left: 3em;
+}
+
+/* line 114, ../sass/global.scss */
+#region-sidebar-first .issue, #region-sidebar-second .issue {
+  padding-bottom: 2em;
+}
+
 /* Responsive Images & Embeds */
-/* line 64, ../sass/global.scss */
+/* line 119, ../sass/global.scss */
 img, embed, object, video {
   max-width: 100%;
   height: auto;
 }
 
-/* Menu Positioning */
-/* line 70, ../sass/global.scss */
-div.logo-img {
-  padding: 20px 0px 20px 0px;
+/* Logo Positioning */
+/* line 125, ../sass/global.scss */
+#region-user-first {
+  float: left;
+  padding: 20px 0px 0px 0px;
 }
 
 /* All Menus Styling */
-/* line 75, ../sass/global.scss */
+/* line 131, ../sass/global.scss */
 #region-menu ul.menu li, #region-branding ul.menu li {
   list-style-image: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 80, ../sass/global.scss */
+/* line 136, ../sass/global.scss */
 #region-menu ul.menu li a, #region-branding ul.menu li a {
   display: block;
   color: #FFF;
@@ -100,13 +167,64 @@ div.logo-img {
   text-decoration: none;
 }
 
+/****** Mobile Menu Styling ******/
+/* Mobile Menu Icon Positioning */
+/* line 146, ../sass/global.scss */
+#region-branding {
+  padding-bottom: 1em;
+}
+
+/* line 150, ../sass/global.scss */
+#region-branding p {
+  padding-left: 0.5em;
+  display: inline;
+  cursor: pointer;
+}
+
+/* line 157, ../sass/global.scss */
+#region-menu {
+  display: none;
+}
+
+/* line 161, ../sass/global.scss */
+#region-branding p#menu {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 150%;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #991f1f;
+  position: relative;
+  top: -4px;
+}
+
+/* line 171, ../sass/global.scss */
+#region-menu ul.menu {
+  padding-bottom: 1.5em;
+}
+/* line 175, ../sass/global.scss */
+#region-menu ul.menu li:last-child {
+  border-bottom: 5px solid #991f1f;
+}
+/* line 179, ../sass/global.scss */
+#region-menu ul.menu li a {
+  font-size: 125%;
+  padding: 0.5em 1.333em;
+  color: #000;
+}
+/* line 184, ../sass/global.scss */
+#region-menu ul.menu li a:hover {
+  background: #991f1f;
+  color: #FFF;
+  text-shadow: 1px 1px #666;
+}
+
 /* Additional Text Styling */
-/* line 89, ../sass/global.scss */
+/* line 194, ../sass/global.scss */
 .smallcaps {
   font-variant: small-caps;
 }
 
-/* line 93, ../sass/global.scss */
+/* line 198, ../sass/global.scss */
 blockquote {
   border-left: 1px dashed #AAAAAA;
   color: #555;
@@ -117,9 +235,214 @@ blockquote {
 }
 
 /* Staff Pics */
-/* line 103, ../sass/global.scss */
+/* line 208, ../sass/global.scss */
 img.staffpic {
   float: left;
   padding: 0px 15px 0px 0px;
   background: none;
+}
+
+/* Footer */
+/* line 215, ../sass/global.scss */
+div#zone-footer-wrapper {
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 220, ../sass/global.scss */
+#region-footer-first p {
+  padding-top: 1em;
+  color: #FFF;
+  text-shadow: 1px 1px #666;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 0.85em;
+}
+
+/* line 229, ../sass/global.scss */
+#region-footer-first p a {
+  text-shadow: none;
+  font-weight: 700;
+  color: #991f1f, 20%;
+}
+
+/**** Buttons ****/
+/* Button Positioning */
+/* line 237, ../sass/global.scss */
+#region-user-second .btn-3a {
+  margin: 10px 10px;
+}
+
+/* General button style (reset) */
+/* line 242, ../sass/global.scss */
+.btn {
+  border: none;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: none;
+  font-size: 14px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 260, ../sass/global.scss */
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button 3 */
+/* line 271, ../sass/global.scss */
+.btn-3 {
+  background: #991f1f;
+  color: #fff;
+}
+/* line 275, ../sass/global.scss */
+.btn-3:hover {
+  background: #841b1b;
+}
+/* line 279, ../sass/global.scss */
+.btn-3:active {
+  background: #6f1616;
+  top: 2px;
+}
+/* line 284, ../sass/global.scss */
+.btn-3:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0px;
+  line-height: 2.25;
+  font-size: 140%;
+  min-width: 60px;
+}
+
+/* Button 3a */
+/* line 296, ../sass/global.scss */
+.btn-3a {
+  padding: 15px 13px 15px 69px;
+}
+/* line 299, ../sass/global.scss */
+.btn-3a:before {
+  font-family: 'bkp';
+  font-size: 24px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* line 305, ../sass/global.scss */
+.btn-3b {
+  padding-right: 22px;
+  width: 225px;
+}
+
+/* Mobile Only Button Styling */
+/* line 311, ../sass/global.scss */
+button#submitbtn {
+  display: none;
+}
+
+/* line 315, ../sass/global.scss */
+button#currentbtn {
+  display: none;
+}
+
+/*** ICONS ***/
+/* line 320, ../sass/global.scss */
+.icon-eye:before, .icon-pen:before {
+  line-height: 2;
+}
+
+/* line 324, ../sass/global.scss */
+.icon-eye:before {
+  content: "\e006";
+}
+
+/* line 328, ../sass/global.scss */
+.icon-pen:before {
+  content: "\e013";
+}
+
+/* line 332, ../sass/global.scss */
+.icon-pdf:before {
+  content: "\e002";
+}
+
+/* line 336, ../sass/global.scss */
+.icon-pdf:before, .icon-ebook:before, .icon-money:before, .icon-fire:before {
+  line-height: 1.75;
+}
+
+/* line 340, ../sass/global.scss */
+.icon-ebook:before {
+  content: "\f02d";
+}
+
+/* line 344, ../sass/global.scss */
+.icon-money:before {
+  content: "\f0d6";
+}
+
+/* line 348, ../sass/global.scss */
+.icon-fire:before {
+  content: "\f27f";
+}
+
+/* line 352, ../sass/global.scss */
+.icon-menu:before {
+  content: "\f039";
+}
+
+/**** Responsiveness for Views Slideshow *****/
+/* line 357, ../sass/global.scss */
+.views_slideshow_cycle_main {
+  width: 100%;
+  float: left;
+}
+
+/* line 361, ../sass/global.scss */
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+
+/* line 365, ../sass/global.scss */
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto;
+}
+
+/* line 369, ../sass/global.scss */
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 373, ../sass/global.scss */
+.views_slideshow_cycle_main .field-content img {
+  max-width: 600px;
+  max-height: 450px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }

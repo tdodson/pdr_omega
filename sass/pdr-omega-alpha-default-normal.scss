@@ -5,15 +5,44 @@
  /* Import SASS Base Partial */
 @import "base";
 
+/* Main Menu Show */
+#region-menu {
+	display: inline !important;
+}
+
+/* Mobile Menu Hide */
+#region-branding p {
+	display: none;
+}
+
+/* Text Positioning */
 p {
 	padding-right: 0.3em;
 }
 
+/*** REGION & ZONE POSITIONING ***/
+#region-user-second {
+	float: right;
+	padding: 40px 0px 0px 0px;
+}
+
+#region-user-second .btn-3a {
+	margin: 10px 25px;
+}
+
+div#zone-content, div#zone-header {
+	padding-top: 20px;
+}
+
+#region-sidebar-first .issue, #region-sidebar-second .issue {
+	margin-top: 75px;
+} 
+
 /* MAIN MENU STYLING */
 div#zone-menu-wrapper {
 	 border-top: 1px solid $baseRed;
-	border-bottom: 1px solid $baseRed; 
-	background-color: #000;
+	 border-bottom: 1px solid $baseRed; 
+	 background-color: $opac_black;
 } 
 
 #region-menu ul.menu {
@@ -21,17 +50,21 @@ div#zone-menu-wrapper {
 	padding: 0;
 	margin: 0;
 	background-color: #000;
+	background-color: $opac_black;
 	border: none;
 	
 	li {
 		/* Unsetting global styles */
 		border-top: none;
 		border-bottom: none;
-		background-color: #000; /* finish unsetting */
 	  	padding-right: 0;
 	  	float: left;
 		width: auto;
 		
+	&:last-child {
+		border: none;
+	}
+
 		a {
 			display: block;
 			padding: 1.2em 15px 0.5em 15px; 
@@ -50,3 +83,8 @@ div#zone-menu-wrapper {
 		}
 	}	
 }
+
+
+
+
+

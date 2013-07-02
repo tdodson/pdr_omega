@@ -13,6 +13,7 @@ regions[branding] = 'Branding'
 regions[menu] = 'Menu'
 regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
+regions[sidebar_third] = 'Sidebar Third'
 regions[header_first] = 'Header First'
 regions[header_second] = 'Header Second'
 regions[preface_first] = 'Preface First'
@@ -353,3 +354,7 @@ fonts[google_fonts_api][] = "Lato&subset=latin#300"
 fonts[google_fonts_api][] = "Lato&subset=latin#300italic"
 fonts[google_fonts_api][] = "Lato&subset=latin#700"
 fonts[google_fonts_api][] = "Lato&subset=latin#700italic"
+libraries[PDR_custom][name] = Custom JScript
+libraries[PDR_custom][description] = Mobile Menu
+libraries[PDR_custom][js][0][file] = script.js
+libraries[PDR_custom][js][0][options][weight] = 15

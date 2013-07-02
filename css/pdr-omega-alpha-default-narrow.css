@@ -4,3 +4,26 @@
  *  and widescreen CSS files as appropriate. */
 /* Import SASS Base Partial */
 /* Variables */
+/* Mix-ins */
+/* line 9, ../sass/pdr-omega-alpha-default-narrow.scss */
+#region-user-second ul {
+  float: none;
+  padding: 49px 0 0 0;
+}
+
+/* Button Show */
+/* line 15, ../sass/pdr-omega-alpha-default-narrow.scss */
+button#submitbtn {
+  display: inline;
+}
+
+/* line 19, ../sass/pdr-omega-alpha-default-narrow.scss */
+button#currentbtn {
+  display: inline;
+}
+
+/*** REGION & ZONE POSITIONING ***/
+/* line 24, ../sass/pdr-omega-alpha-default-narrow.scss */
+#block-search-form {
+  padding-top: 10px;
+}
