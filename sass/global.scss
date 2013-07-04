@@ -92,6 +92,17 @@ a {
 	display: inline;
 	padding-right: 0.6em;
 	color: $baseRed;
+	a {
+		&:hover, &:active {
+			text-decoration:none;
+		}
+		&:focus {
+			outline: none;
+		}
+		&:visited {
+			color: $baseRed;
+		}
+	}
 }
 
 /* Search Box Styling */
