@@ -27,10 +27,16 @@ body {
 	background: $wall;
 }
 
-body.front {
+body.front #zone-content-wrapper {
 	background-image: $front;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 600px;
+}
+
+body.front #region-content {
+	
 }
 
 p {
