@@ -34,101 +34,112 @@ body {
 }
 
 /* line 30, ../sass/global.scss */
+body.front {
+  background-image: url(../images/front2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* line 36, ../sass/global.scss */
 p {
   font-size: 125%;
   /* 16px in Chrome for Mac */
   line-height: 150%;
 }
 
-/* line 35, ../sass/global.scss */
+/* line 41, ../sass/global.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
-/* line 40, ../sass/global.scss */
+/* line 46, ../sass/global.scss */
 h1 {
   font-size: 1.355em;
 }
-/* line 42, ../sass/global.scss */
+/* line 48, ../sass/global.scss */
 h1.title {
   font-size: 2.75em;
   /* approx 36px */
 }
 
-/* line 47, ../sass/global.scss */
+/* line 53, ../sass/global.scss */
 h2 {
   font-size: 1.3em;
 }
-/* line 49, ../sass/global.scss */
+/* line 55, ../sass/global.scss */
 h2.block-title {
   font-size: 1.5em;
   padding-bottom: 0.4em;
 }
 
-/* line 55, ../sass/global.scss */
+/* line 61, ../sass/global.scss */
 h3 {
   font-size: 1.25em;
 }
 
-/* line 59, ../sass/global.scss */
+/* line 65, ../sass/global.scss */
 h4 {
   font-size: 1.15em;
 }
 
 /* Link Styling */
-/* line 65, ../sass/global.scss */
+/* line 71, ../sass/global.scss */
 a:link {
   text-decoration: none;
   color: #991f1f;
 }
-/* line 69, ../sass/global.scss */
+/* line 75, ../sass/global.scss */
 a:hover, a:active {
   text-decoration: underline;
 }
-/* line 72, ../sass/global.scss */
+/* line 78, ../sass/global.scss */
 a:focus {
   outline: none;
 }
-/* line 75, ../sass/global.scss */
+/* line 81, ../sass/global.scss */
 a:visited {
   color: #873131;
 }
 
 /*** Sidebar Styling ***/
-/* line 82, ../sass/global.scss */
+/* line 88, ../sass/global.scss */
 #region-sidebar-second .block {
   padding-bottom: 1.5em;
 }
-/* line 84, ../sass/global.scss */
+/* line 90, ../sass/global.scss */
 #region-sidebar-second .block p {
   font-size: 1.1em;
   line-height: 140%;
 }
 
-/* line 90, ../sass/global.scss */
+/* line 96, ../sass/global.scss */
 #region-sidebar-second .followus p.icon {
   font-size: 32px;
   display: inline;
   padding-right: 0.4em;
   color: #991f1f;
 }
-/* line 96, ../sass/global.scss */
+/* line 102, ../sass/global.scss */
+#region-sidebar-second .followus p.icon a:link {
+  color: #991f1f;
+}
+/* line 105, ../sass/global.scss */
 #region-sidebar-second .followus p.icon a:hover, #region-sidebar-second .followus p.icon a:active {
   text-decoration: none;
   color: #6b4d4d;
 }
-/* line 100, ../sass/global.scss */
+/* line 109, ../sass/global.scss */
 #region-sidebar-second .followus p.icon a:focus {
   outline: none;
 }
-/* line 103, ../sass/global.scss */
+/* line 112, ../sass/global.scss */
 #region-sidebar-second .followus p.icon a:visited {
   color: #991f1f;
 }
 
 /* Search Box Styling */
-/* line 110, ../sass/global.scss */
+/* line 119, ../sass/global.scss */
 #block-search-form input.form-submit[type="submit"] {
   background: #991f1f;
   color: #FFF;
@@ -141,63 +152,63 @@ a:visited {
   border-radius: 60px;
   margin-left: 1em;
 }
-/* line 121, ../sass/global.scss */
+/* line 130, ../sass/global.scss */
 #block-search-form input.form-submit[type="submit"]:hover {
   background: transparent;
   color: #991f1f;
 }
 
 /* Issue Sidebars Styling */
-/* line 130, ../sass/global.scss */
+/* line 139, ../sass/global.scss */
 #region-sidebar-first .issue h2, #region-sidebar-second .issue h2 {
   font-variant: small-caps;
   font-size: 1.25em;
   border-bottom: 2px solid #991f1f;
 }
-/* line 135, ../sass/global.scss */
+/* line 144, ../sass/global.scss */
 #region-sidebar-first .issue p, #region-sidebar-second .issue p {
   font-size: 1.1em;
   line-height: 175%;
   padding: 0;
   margin: 0;
 }
-/* line 140, ../sass/global.scss */
+/* line 149, ../sass/global.scss */
 #region-sidebar-first .issue p.ind, #region-sidebar-second .issue p.ind {
   padding-left: 1.5em;
 }
-/* line 143, ../sass/global.scss */
+/* line 152, ../sass/global.scss */
 #region-sidebar-first .issue p.ind2, #region-sidebar-second .issue p.ind2 {
   padding-left: 3em;
 }
 
-/* line 149, ../sass/global.scss */
+/* line 158, ../sass/global.scss */
 #region-sidebar-first .issue, #region-sidebar-second .issue {
   padding-bottom: 2em;
 }
 
 /* Responsive Images & Embeds */
-/* line 154, ../sass/global.scss */
+/* line 163, ../sass/global.scss */
 img, embed, object, video {
   max-width: 100%;
   height: auto;
 }
 
 /* Logo Positioning */
-/* line 160, ../sass/global.scss */
+/* line 169, ../sass/global.scss */
 #region-user-first {
   float: left;
   padding: 20px 0px 0px 0px;
 }
 
 /* All Menus Styling */
-/* line 166, ../sass/global.scss */
+/* line 175, ../sass/global.scss */
 #region-menu ul.menu li, #region-branding ul.menu li {
   list-style-image: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 171, ../sass/global.scss */
+/* line 180, ../sass/global.scss */
 #region-menu ul.menu li a, #region-branding ul.menu li a {
   display: block;
   color: #FFF;
@@ -207,24 +218,24 @@ img, embed, object, video {
 
 /****** Mobile Menu Styling ******/
 /* Mobile Menu Icon Positioning */
-/* line 181, ../sass/global.scss */
+/* line 190, ../sass/global.scss */
 #region-branding {
   padding-bottom: 1em;
 }
 
-/* line 185, ../sass/global.scss */
+/* line 194, ../sass/global.scss */
 #region-branding p {
   padding-left: 0.5em;
   display: inline;
   cursor: pointer;
 }
 
-/* line 192, ../sass/global.scss */
+/* line 201, ../sass/global.scss */
 #region-menu {
   display: none;
 }
 
-/* line 196, ../sass/global.scss */
+/* line 205, ../sass/global.scss */
 #region-branding p#menu {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 150%;
@@ -235,21 +246,21 @@ img, embed, object, video {
   top: -4px;
 }
 
-/* line 206, ../sass/global.scss */
+/* line 215, ../sass/global.scss */
 #region-menu ul.menu {
   padding-bottom: 1.5em;
 }
-/* line 210, ../sass/global.scss */
+/* line 219, ../sass/global.scss */
 #region-menu ul.menu li:last-child {
   border-bottom: 5px solid #991f1f;
 }
-/* line 214, ../sass/global.scss */
+/* line 223, ../sass/global.scss */
 #region-menu ul.menu li a {
   font-size: 125%;
   padding: 0.5em 1.333em;
   color: #000;
 }
-/* line 219, ../sass/global.scss */
+/* line 228, ../sass/global.scss */
 #region-menu ul.menu li a:hover {
   background: #991f1f;
   color: #FFF;
@@ -257,12 +268,12 @@ img, embed, object, video {
 }
 
 /* Additional Text Styling */
-/* line 229, ../sass/global.scss */
+/* line 238, ../sass/global.scss */
 .smallcaps {
   font-variant: small-caps;
 }
 
-/* line 233, ../sass/global.scss */
+/* line 242, ../sass/global.scss */
 blockquote {
   border-left: 1px dashed #AAAAAA;
   color: #555;
@@ -273,7 +284,7 @@ blockquote {
 }
 
 /* Staff Pics */
-/* line 243, ../sass/global.scss */
+/* line 252, ../sass/global.scss */
 img.staffpic {
   float: left;
   padding: 0px 15px 0px 0px;
@@ -281,13 +292,13 @@ img.staffpic {
 }
 
 /* Footer */
-/* line 250, ../sass/global.scss */
+/* line 259, ../sass/global.scss */
 div#zone-footer-wrapper {
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 255, ../sass/global.scss */
+/* line 264, ../sass/global.scss */
 #region-footer-first p {
   padding-top: 1em;
   color: #FFF;
@@ -298,7 +309,7 @@ div#zone-footer-wrapper {
   letter-spacing: 0.09em;
 }
 
-/* line 265, ../sass/global.scss */
+/* line 274, ../sass/global.scss */
 #region-footer-first p a {
   text-shadow: none;
   font-weight: 700;
@@ -307,13 +318,13 @@ div#zone-footer-wrapper {
 
 /**** Buttons ****/
 /* Button Positioning */
-/* line 273, ../sass/global.scss */
+/* line 282, ../sass/global.scss */
 #region-user-second .btn-3a {
   margin: 10px 10px;
 }
 
 /* General button style (reset) */
-/* line 278, ../sass/global.scss */
+/* line 287, ../sass/global.scss */
 .btn {
   border: none;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -333,7 +344,7 @@ div#zone-footer-wrapper {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 296, ../sass/global.scss */
+/* line 305, ../sass/global.scss */
 .btn:after {
   content: '';
   position: absolute;
@@ -344,21 +355,21 @@ div#zone-footer-wrapper {
 }
 
 /* Button 3 */
-/* line 307, ../sass/global.scss */
+/* line 316, ../sass/global.scss */
 .btn-3 {
   background: #991f1f;
   color: #fff;
 }
-/* line 311, ../sass/global.scss */
+/* line 320, ../sass/global.scss */
 .btn-3:hover {
   background: #841b1b;
 }
-/* line 315, ../sass/global.scss */
+/* line 324, ../sass/global.scss */
 .btn-3:active {
   background: #6f1616;
   top: 2px;
 }
-/* line 320, ../sass/global.scss */
+/* line 329, ../sass/global.scss */
 .btn-3:before {
   position: absolute;
   height: 100%;
@@ -370,11 +381,11 @@ div#zone-footer-wrapper {
 }
 
 /* Button 3a */
-/* line 332, ../sass/global.scss */
+/* line 341, ../sass/global.scss */
 .btn-3a {
   padding: 15px 13px 15px 69px;
 }
-/* line 335, ../sass/global.scss */
+/* line 344, ../sass/global.scss */
 .btn-3a:before {
   font-family: 'bkp';
   font-size: 24px;
@@ -388,95 +399,95 @@ div#zone-footer-wrapper {
   background: rgba(0, 0, 0, 0.05);
 }
 
-/* line 341, ../sass/global.scss */
+/* line 350, ../sass/global.scss */
 .btn-3b {
   padding-right: 22px;
   width: 225px;
 }
 
 /* Mobile Only Button Styling */
-/* line 347, ../sass/global.scss */
+/* line 356, ../sass/global.scss */
 button#submitbtn {
   display: none;
 }
 
-/* line 351, ../sass/global.scss */
+/* line 360, ../sass/global.scss */
 button#currentbtn {
   display: none;
 }
 
 /*** ICONS ***/
-/* line 356, ../sass/global.scss */
+/* line 365, ../sass/global.scss */
 .icon-eye:before, .icon-pen:before {
   line-height: 2;
 }
 
-/* line 360, ../sass/global.scss */
+/* line 369, ../sass/global.scss */
 .icon-eye:before {
   content: "\e006";
 }
 
-/* line 364, ../sass/global.scss */
+/* line 373, ../sass/global.scss */
 .icon-pen:before {
   content: "\e013";
 }
 
-/* line 368, ../sass/global.scss */
+/* line 377, ../sass/global.scss */
 .icon-pdf:before {
   content: "\e002";
 }
 
-/* line 372, ../sass/global.scss */
+/* line 381, ../sass/global.scss */
 .icon-pdf:before, .icon-ebook:before, .icon-money:before, .icon-fire:before {
   line-height: 1.75;
 }
 
-/* line 376, ../sass/global.scss */
+/* line 385, ../sass/global.scss */
 .icon-ebook:before {
   content: "\f02d";
 }
 
-/* line 380, ../sass/global.scss */
+/* line 389, ../sass/global.scss */
 .icon-money:before {
   content: "\f0d6";
 }
 
-/* line 384, ../sass/global.scss */
+/* line 393, ../sass/global.scss */
 .icon-fire:before {
   content: "\f27f";
 }
 
-/* line 388, ../sass/global.scss */
+/* line 397, ../sass/global.scss */
 .icon-menu:before {
   content: "\f039";
 }
 
 /**** Responsiveness for Views Slideshow *****/
-/* line 393, ../sass/global.scss */
+/* line 402, ../sass/global.scss */
 .views_slideshow_cycle_main {
   width: 100%;
   float: left;
 }
 
-/* line 397, ../sass/global.scss */
+/* line 406, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
   width: 100% !important;
   height: auto;
 }
 
-/* line 401, ../sass/global.scss */
+/* line 410, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
   height: auto;
 }
 
-/* line 405, ../sass/global.scss */
+/* line 414, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 409, ../sass/global.scss */
+/* line 418, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content img {
   max-width: 600px;
   max-height: 450px;

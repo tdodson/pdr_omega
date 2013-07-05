@@ -27,6 +27,12 @@ body {
 	background: $wall;
 }
 
+body.front {
+	background-image: $front;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 p {
 	font-size: 125%; /* 16px in Chrome for Mac */
 	line-height: 150%;
@@ -93,6 +99,9 @@ a {
 	padding-right: 0.4em;
 	color: $baseRed;
 	a {
+		&:link {
+			color: $baseRed;
+		}
 		&:hover, &:active {
 			text-decoration:none;
 			color: desaturate($baseRed, 50%);
