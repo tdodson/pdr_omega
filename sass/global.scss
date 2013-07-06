@@ -79,8 +79,40 @@ a {
 
 /*** Frontpage Delta Styling ***/
 body.front {
-
+	#region-user-second {
+		display: none;
+	}
+	#region-content {
+		.slideshow-image {
+			position:relative;
+		}
+		.slideshow-caption {
+			position: absolute;
+			bottom: 50px;
+		}
+	}
+	.fromblog {
+		font-family: $sans;
+		font-weight: 700;
+		div.blogdate {
+			font-family: $serif;
+			font-size: 0.9em;
+			font-weight: 300;
+			padding-bottom: 1.5em;
+		}
+	}
+	#region-postscript-third {
+		padding-bottom: 1.5em;
+		.getintouch {
+			padding-bottom: 1em;
+			p {
+				font-size: 0.9em;
+				line-height: 50%;
+			}
+		}
+	}
 }
+/*** End Frontpage Delta Styling ***/
 
 /*** Sidebar Styling ***/
 
@@ -93,6 +125,11 @@ body.front {
 }
 
 #region-sidebar-second .followus p.icon {
+	font-size: 32px;
+}
+
+/* Social Icon Styling (All Locations) */
+.followus p.icon {
 	font-size: 32px;
 	display: inline;
 	padding-right: 0.4em;
@@ -420,8 +457,6 @@ button#currentbtn {
   width: 100%;
 }
 .views_slideshow_cycle_main .field-content img {
-  max-width: 600px;
-  max-height: 450px;
   width: 100%;
   height: auto;
   margin: 0;

@@ -5,7 +5,23 @@
 
  /* Import SASS Base Partial */
 @import "base";
-
+/*** Frontpage Delta Styling ***/
+body.front {
+	#region-user-first img {
+		width: 357px;
+		height: 100px;
+	}
+	#region-user-second {
+		display: block;
+	}
+	#region-postscript-first, #region-postscript-second, #region-postscript-third {
+		padding-top: 1em;
+	}
+	#region-postscript-third {
+		padding-bottom: 0;
+	}
+}
+/* End Frontpage Delta Styling */
 #region-user-second ul {
 	float: none;
 	padding: 49px 0 0 0;
