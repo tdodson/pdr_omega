@@ -277,22 +277,26 @@ blockquote {
   padding-left: 20px;
 }
 
-/* Staff Pics */
-/* line 251, ../sass/global.scss */
-img.staffpic {
+/* Masthead/Staff Page */
+/* line 252, ../sass/global.scss */
+div.staff {
+  padding-bottom: 0.5em;
+}
+/* line 255, ../sass/global.scss */
+div.staff img {
   float: left;
   padding: 0px 15px 0px 0px;
   background: none;
 }
 
 /* Footer */
-/* line 258, ../sass/global.scss */
+/* line 263, ../sass/global.scss */
 div#zone-footer-wrapper {
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 263, ../sass/global.scss */
+/* line 268, ../sass/global.scss */
 #region-footer-first p {
   padding-top: 1em;
   color: #FFF;
@@ -303,7 +307,7 @@ div#zone-footer-wrapper {
   letter-spacing: 0.09em;
 }
 
-/* line 273, ../sass/global.scss */
+/* line 278, ../sass/global.scss */
 #region-footer-first p a {
   text-shadow: none;
   font-weight: 700;
@@ -312,13 +316,13 @@ div#zone-footer-wrapper {
 
 /**** Buttons ****/
 /* Button Positioning */
-/* line 281, ../sass/global.scss */
+/* line 286, ../sass/global.scss */
 #region-user-second .btn-3a {
   margin: 10px 10px;
 }
 
 /* General button style (reset) */
-/* line 286, ../sass/global.scss */
+/* line 291, ../sass/global.scss */
 .btn {
   border: none;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -338,7 +342,7 @@ div#zone-footer-wrapper {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 304, ../sass/global.scss */
+/* line 309, ../sass/global.scss */
 .btn:after {
   content: '';
   position: absolute;
@@ -349,21 +353,21 @@ div#zone-footer-wrapper {
 }
 
 /* Button 3 */
-/* line 315, ../sass/global.scss */
+/* line 320, ../sass/global.scss */
 .btn-3 {
   background: #991f1f;
   color: #fff;
 }
-/* line 319, ../sass/global.scss */
+/* line 324, ../sass/global.scss */
 .btn-3:hover {
   background: #841b1b;
 }
-/* line 323, ../sass/global.scss */
+/* line 328, ../sass/global.scss */
 .btn-3:active {
   background: #6f1616;
   top: 2px;
 }
-/* line 328, ../sass/global.scss */
+/* line 333, ../sass/global.scss */
 .btn-3:before {
   position: absolute;
   height: 100%;
@@ -375,11 +379,11 @@ div#zone-footer-wrapper {
 }
 
 /* Button 3a */
-/* line 340, ../sass/global.scss */
+/* line 345, ../sass/global.scss */
 .btn-3a {
   padding: 15px 13px 15px 69px;
 }
-/* line 343, ../sass/global.scss */
+/* line 348, ../sass/global.scss */
 .btn-3a:before {
   font-family: 'bkp';
   font-size: 24px;
@@ -393,95 +397,95 @@ div#zone-footer-wrapper {
   background: rgba(0, 0, 0, 0.05);
 }
 
-/* line 349, ../sass/global.scss */
+/* line 354, ../sass/global.scss */
 .btn-3b {
   padding-right: 22px;
   width: 225px;
 }
 
 /* Mobile Only Button Styling */
-/* line 355, ../sass/global.scss */
+/* line 360, ../sass/global.scss */
 button#submitbtn {
   display: none;
 }
 
-/* line 359, ../sass/global.scss */
+/* line 364, ../sass/global.scss */
 button#currentbtn {
   display: none;
 }
 
 /*** ICONS ***/
-/* line 364, ../sass/global.scss */
+/* line 369, ../sass/global.scss */
 .icon-eye:before, .icon-pen:before {
   line-height: 2;
 }
 
-/* line 368, ../sass/global.scss */
+/* line 373, ../sass/global.scss */
 .icon-eye:before {
   content: "\e006";
 }
 
-/* line 372, ../sass/global.scss */
+/* line 377, ../sass/global.scss */
 .icon-pen:before {
   content: "\e013";
 }
 
-/* line 376, ../sass/global.scss */
+/* line 381, ../sass/global.scss */
 .icon-pdf:before {
   content: "\e002";
 }
 
-/* line 380, ../sass/global.scss */
+/* line 385, ../sass/global.scss */
 .icon-pdf:before, .icon-ebook:before, .icon-money:before, .icon-fire:before {
   line-height: 1.75;
 }
 
-/* line 384, ../sass/global.scss */
+/* line 389, ../sass/global.scss */
 .icon-ebook:before {
   content: "\f02d";
 }
 
-/* line 388, ../sass/global.scss */
+/* line 393, ../sass/global.scss */
 .icon-money:before {
   content: "\f0d6";
 }
 
-/* line 392, ../sass/global.scss */
+/* line 397, ../sass/global.scss */
 .icon-fire:before {
   content: "\f27f";
 }
 
-/* line 396, ../sass/global.scss */
+/* line 401, ../sass/global.scss */
 .icon-menu:before {
   content: "\f039";
 }
 
 /**** Responsiveness for Views Slideshow *****/
-/* line 401, ../sass/global.scss */
+/* line 406, ../sass/global.scss */
 .views_slideshow_cycle_main {
   width: 100%;
   float: left;
 }
 
-/* line 405, ../sass/global.scss */
+/* line 410, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
   width: 100% !important;
   height: auto;
 }
 
-/* line 409, ../sass/global.scss */
+/* line 414, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
   height: auto;
 }
 
-/* line 413, ../sass/global.scss */
+/* line 418, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 417, ../sass/global.scss */
+/* line 422, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content img {
   max-width: 600px;
   max-height: 450px;

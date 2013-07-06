@@ -79,7 +79,7 @@ a {
 
 /*** Frontpage Delta Styling ***/
 body.front {
-	
+
 }
 
 /*** Sidebar Styling ***/
@@ -247,11 +247,16 @@ blockquote {
 	padding-left:20px;
 }
 
-/* Staff Pics */
-img.staffpic  {
+/* Masthead/Staff Page */
+
+div.staff {
+	padding-bottom: 0.5em;
+	
+	img  {
 	float: left;
 	padding: 0px 15px 0px 0px;
 	background: none;
+	}
 }
 
 /* Footer */
