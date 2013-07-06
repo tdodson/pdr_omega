@@ -27,18 +27,6 @@ body {
 	background: $wall;
 }
 
-body.front #zone-content-wrapper {
-	background-image: $front;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	width: 100%;
-	min-height: 600px;
-}
-
-body.front #region-content {
-	
-}
-
 p {
 	font-size: 125%; /* 16px in Chrome for Mac */
 	line-height: 150%;
@@ -87,6 +75,11 @@ a {
 	&:visited {
 		color: desaturate($baseRed, 20%);
 	}
+}
+
+/*** Frontpage Delta Styling ***/
+body.front {
+	
 }
 
 /*** Sidebar Styling ***/

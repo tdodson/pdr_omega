@@ -5,16 +5,6 @@
  /* Import SASS Base Partial */
 @import "base";
 
-/* Main Menu Show */
-#region-menu {
-	display: inline !important;
-}
-
-/* Mobile Menu Hide */
-#region-branding p {
-	display: none;
-}
-
 /* Text Positioning */
 p {
 	padding-right: 0.3em;
