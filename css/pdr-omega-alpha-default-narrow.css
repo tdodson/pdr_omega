@@ -17,33 +17,34 @@ body.front button#currentbtn {
 }
 /* line 17, ../sass/pdr-omega-alpha-default-narrow.scss */
 body.front #region-postscript-first, body.front #region-postscript-second, body.front #region-postscript-third {
-  padding-top: 1em;
+  margin-top: -1em;
+  padding-top: 0em;
 }
-/* line 20, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 21, ../sass/pdr-omega-alpha-default-narrow.scss */
 body.front #region-postscript-third {
   padding-bottom: 0;
 }
 
 /* End Frontpage Delta Styling */
-/* line 25, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 26, ../sass/pdr-omega-alpha-default-narrow.scss */
 #region-user-second ul {
   float: none;
   padding: 49px 0 0 0;
 }
 
 /* Button Show */
-/* line 31, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 32, ../sass/pdr-omega-alpha-default-narrow.scss */
 button#submitbtn {
   display: inline;
 }
 
-/* line 35, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 36, ../sass/pdr-omega-alpha-default-narrow.scss */
 button#currentbtn {
   display: inline;
 }
 
 /*** REGION & ZONE POSITIONING ***/
-/* line 40, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 41, ../sass/pdr-omega-alpha-default-narrow.scss */
 #block-search-form {
   padding-top: 10px;
 }
