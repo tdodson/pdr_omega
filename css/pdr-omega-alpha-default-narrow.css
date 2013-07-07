@@ -17,7 +17,7 @@ body.front button#currentbtn {
 }
 /* line 17, ../sass/pdr-omega-alpha-default-narrow.scss */
 body.front #region-postscript-first, body.front #region-postscript-second, body.front #region-postscript-third {
-  margin-top: -1em;
+  margin-top: 0.25em;
   padding-top: 0em;
 }
 /* line 21, ../sass/pdr-omega-alpha-default-narrow.scss */
