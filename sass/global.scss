@@ -79,7 +79,7 @@ a {
 
 /*** Frontpage Delta Styling ***/
 body.front {
-	#region-user-second {
+	#region-user-second button#submitbtn {
 		display: none;
 	}
 	#region-content {
@@ -87,9 +87,22 @@ body.front {
 			position:relative;
 		}
 		.slideshow-caption {
-			position: absolute;
-			bottom: 50px;
+			position: relative;
+			font-family: $sans;
+			color: #FFF;
+			background: #666;
+			background: rgba(0,0,0,0.5);
+			padding: 0.5em 2em 0.25em 0.75em;
+			a {
+				color: #FFF;
+				font-weight: 700;
+				text-decoration: underline;
+
+			}
 		}
+	}
+	.frommag ul {
+		list-style: none;
 	}
 	.fromblog {
 		font-family: $sans;
@@ -103,13 +116,6 @@ body.front {
 	}
 	#region-postscript-third {
 		padding-bottom: 1.5em;
-		.getintouch {
-			padding-bottom: 1em;
-			p {
-				font-size: 0.9em;
-				line-height: 50%;
-			}
-		}
 	}
 }
 /*** End Frontpage Delta Styling ***/

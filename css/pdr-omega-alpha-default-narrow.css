@@ -12,8 +12,8 @@ body.front #region-user-first img {
   height: 100px;
 }
 /* line 14, ../sass/pdr-omega-alpha-default-narrow.scss */
-body.front #region-user-second {
-  display: block;
+body.front button#currentbtn {
+  margin-top: 3.55em;
 }
 /* line 17, ../sass/pdr-omega-alpha-default-narrow.scss */
 body.front #region-postscript-first, body.front #region-postscript-second, body.front #region-postscript-third {

@@ -4,55 +4,70 @@
 /* Import SASS Base Partial */
 /* Variables */
 /* Mix-ins */
+/*** Frontpage Delta Styling ***/
+/* line 10, ../sass/pdr-omega-alpha-default-normal.scss */
+body.front button#currentbtn {
+  margin-top: 0.75em;
+}
+/* line 13, ../sass/pdr-omega-alpha-default-normal.scss */
+body.front #region-content .slideshow-caption {
+  position: absolute;
+  bottom: 0px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-right-radius: 10px;
+}
+
+/*** End Frontpage Delta Styling ***/
 /* Main Menu Show */
-/* line 9, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 24, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-menu {
   display: inline !important;
 }
 
 /* Mobile Menu Hide */
-/* line 14, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 29, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-branding p {
   display: none;
 }
 
 /* Text Positioning */
-/* line 19, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 34, ../sass/pdr-omega-alpha-default-normal.scss */
 p {
   padding-right: 0.3em;
 }
 
 /*** REGION & ZONE POSITIONING ***/
-/* line 24, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 39, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-user-second {
   float: right;
   padding: 40px 0px 0px 0px;
 }
 
-/* line 29, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 44, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-user-second .btn-3a {
   margin: 10px 25px;
 }
 
-/* line 33, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 48, ../sass/pdr-omega-alpha-default-normal.scss */
 div#zone-content, div#zone-header {
   padding-top: 20px;
 }
 
-/* line 37, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 52, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-sidebar-first .issue, #region-sidebar-second .issue {
   margin-top: 75px;
 }
 
 /* MAIN MENU STYLING */
-/* line 42, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 57, ../sass/pdr-omega-alpha-default-normal.scss */
 div#zone-menu-wrapper {
   border-top: 1px solid #991f1f;
   border-bottom: 1px solid #991f1f;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 48, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 63, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-menu ul.menu {
   display: inline;
   padding: 0;
@@ -61,7 +76,7 @@ div#zone-menu-wrapper {
   background-color: rgba(0, 0, 0, 0.8);
   border: none;
 }
-/* line 56, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 71, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-menu ul.menu li {
   /* Unsetting global styles */
   border-top: none;
@@ -70,11 +85,11 @@ div#zone-menu-wrapper {
   float: left;
   width: auto;
 }
-/* line 64, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 79, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-menu ul.menu li:last-child {
   border: none;
 }
-/* line 68, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 83, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-menu ul.menu li a {
   display: block;
   padding: 1.2em 15px 0.5em 15px;
@@ -85,7 +100,7 @@ div#zone-menu-wrapper {
   font-weight: 700;
   overflow: visible;
 }
-/* line 78, ../sass/pdr-omega-alpha-default-normal.scss */
+/* line 93, ../sass/pdr-omega-alpha-default-normal.scss */
 #region-menu ul.menu li a:hover {
   background: #991f1f;
   color: #FFF;

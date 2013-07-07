@@ -5,6 +5,21 @@
  /* Import SASS Base Partial */
 @import "base";
 
+/*** Frontpage Delta Styling ***/
+body.front {
+	button#currentbtn {
+		margin-top: 0.75em;
+	}
+	#region-content .slideshow-caption {
+		position: absolute;
+		bottom: 0px;
+		-webkit-border-top-right-radius: 10px;
+		-moz-border-radius-topright: 10px;
+		border-top-right-radius: 10px;
+	}
+}
+/*** End Frontpage Delta Styling ***/
+
 /* Main Menu Show */
 #region-menu {
 	display: inline !important;
