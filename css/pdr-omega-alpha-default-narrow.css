@@ -48,3 +48,9 @@ button#currentbtn {
 #block-search-form {
   padding-top: 10px;
 }
+
+/*** Work Styling ***/
+/* line 47, ../sass/pdr-omega-alpha-default-narrow.scss */
+div#work p {
+  font-size: 150%;
+}

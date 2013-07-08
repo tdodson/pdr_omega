@@ -67,8 +67,8 @@ div#zone-content, div#zone-header {
 /* MAIN MENU STYLING */
 /* line 61, ../sass/pdr-omega-alpha-default-normal.scss */
 div#zone-menu-wrapper {
-  border-top: 1px solid #991f1f;
-  border-bottom: 1px solid #991f1f;
+  border-top: 1px solid #cc2929;
+  border-bottom: 1px solid #cc2929;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -101,7 +101,7 @@ div#zone-menu-wrapper {
   font-size: 14px;
   text-transform: uppercase;
   height: 28px;
-  color: #991f1f;
+  color: #c32828;
   font-weight: 700;
   overflow: visible;
 }

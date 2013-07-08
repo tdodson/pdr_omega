@@ -102,7 +102,12 @@ body.front {
 		}
 	}
 	.frommag ul {
+		font-family: $sans;
+		font-weight: 700;
 		list-style: none;
+		li {
+			padding-bottom: 0.85em;
+		}
 	}
 	.fromblog {
 		font-family: $sans;
@@ -472,3 +477,12 @@ button#currentbtn {
   margin: 0;
   padding: 0;
 }
+
+/*** Work Styling ***/
+div#work {
+	p {
+		
+	}
+}
+
+

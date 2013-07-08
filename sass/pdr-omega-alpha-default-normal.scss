@@ -59,8 +59,8 @@ div#zone-content, div#zone-header {
 
 /* MAIN MENU STYLING */
 div#zone-menu-wrapper {
-	 border-top: 1px solid $baseRed;
-	 border-bottom: 1px solid $baseRed; 
+	 border-top: 1px solid #cc2929;
+	 border-bottom: 1px solid #cc2929; 
 	 background-color: $opac_black;
 } 
 
@@ -90,7 +90,7 @@ div#zone-menu-wrapper {
 			font-size: 14px; 
 			text-transform: uppercase;
 			height: 28px;
-			color: $baseRed;
+			color: lighten($baseRed, 10%);
 			font-weight: 700;
 			overflow: visible;
 			
