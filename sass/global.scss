@@ -20,6 +20,13 @@ p.icon {
 	@include icon;	
 }
 
+span.icon {
+	@include icon;
+	font-size: 12px;
+	color: $baseRed;
+	padding-left: 0.75em;
+}
+
 body {
 	font-family: $serif;
 	color: $grey;
@@ -137,6 +144,9 @@ body.front {
 		font-size: 1.1em;
 		line-height: 140%;
 	}
+	ul {
+	list-style: none;
+	}
 }
 
 #region-sidebar-second .followus p.icon {
@@ -166,7 +176,7 @@ body.front {
 	}
 }
 
-/* Search Box Styling */
+/* Search Button Styling */
 #block-search-form input.form-submit[type="submit"] {
 	background: $baseRed;
 	color: #FFF;
@@ -183,7 +193,6 @@ body.front {
 		color: $baseRed;
 	}
 }
-
 
 /* Issue Sidebars Styling */
 #region-sidebar-first .issue, #region-sidebar-second .issue {
@@ -519,8 +528,42 @@ td.views-field-title a {
 }
 
 /*** Work Styling ***/
+#region-content div.field-name-field-notes {
+	float: right;
+	margin-top: 1em;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.4);
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	padding-right: 1em;
+	padding-bottom: 0;
+	height: 16px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	p {
+		font-size: 0.85em;
+		color: white;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	span.icon {
+		@include icon;
+		color: $baseRed;
+		padding-right: 0.5em;
+		font-size: 16px;
+	}
+}
+
+
+
 div#work {
 	p.author {
+		margin-top: -1em;
+		padding-left: 2.5em;
 		padding-bottom: 2em;
 		em {
 			font-variant: small-caps;

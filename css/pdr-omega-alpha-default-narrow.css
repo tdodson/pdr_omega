@@ -49,23 +49,30 @@ button#currentbtn {
   padding-top: 10px;
 }
 
+/* line 45, ../sass/pdr-omega-alpha-default-narrow.scss */
+#region-sidebar-second .frommag, #region-sidebar-second .fromblog {
+  padding-bottom: 0em;
+  text-indent: -2em;
+  margin-left: 2em;
+}
+
 /*** Work Styling ***/
-/* line 47, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 53, ../sass/pdr-omega-alpha-default-narrow.scss */
 div#work p {
   font-size: 150%;
 }
 
 /*** Table Styling ***/
-/* line 53, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 59, ../sass/pdr-omega-alpha-default-narrow.scss */
 td.views-field-body {
   display: table-cell;
 }
 
-/* line 57, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 63, ../sass/pdr-omega-alpha-default-narrow.scss */
 td.views-field-title {
   min-width: 180px;
 }
-/* line 59, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 65, ../sass/pdr-omega-alpha-default-narrow.scss */
 td.views-field-title a {
   display: inline;
   text-align: center;
