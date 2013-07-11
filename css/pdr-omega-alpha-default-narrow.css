@@ -54,3 +54,19 @@ button#currentbtn {
 div#work p {
   font-size: 150%;
 }
+
+/*** Table Styling ***/
+/* line 53, ../sass/pdr-omega-alpha-default-narrow.scss */
+td.views-field-body {
+  display: table-cell;
+}
+
+/* line 57, ../sass/pdr-omega-alpha-default-narrow.scss */
+td.views-field-title {
+  min-width: 180px;
+}
+/* line 59, ../sass/pdr-omega-alpha-default-narrow.scss */
+td.views-field-title a {
+  display: inline;
+  text-align: center;
+}

@@ -250,21 +250,21 @@ img, embed, object, video {
 }
 
 /* Logo Positioning */
-/* line 220, ../sass/global.scss */
+/* line 224, ../sass/global.scss */
 #region-user-first {
   float: left;
   padding: 20px 0px 0px 0px;
 }
 
 /* All Menus Styling */
-/* line 226, ../sass/global.scss */
+/* line 230, ../sass/global.scss */
 #region-menu ul.menu li, #region-branding ul.menu li {
   list-style-image: none;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-/* line 231, ../sass/global.scss */
+/* line 235, ../sass/global.scss */
 #region-menu ul.menu li a, #region-branding ul.menu li a {
   display: block;
   color: #FFF;
@@ -274,24 +274,24 @@ img, embed, object, video {
 
 /****** Mobile Menu Styling ******/
 /* Mobile Menu Icon Positioning */
-/* line 241, ../sass/global.scss */
+/* line 245, ../sass/global.scss */
 #region-branding {
   padding-bottom: 1em;
 }
 
-/* line 245, ../sass/global.scss */
+/* line 249, ../sass/global.scss */
 #region-branding p {
   padding-left: 0.5em;
   display: inline;
   cursor: pointer;
 }
 
-/* line 252, ../sass/global.scss */
+/* line 256, ../sass/global.scss */
 #region-menu {
   display: none;
 }
 
-/* line 256, ../sass/global.scss */
+/* line 260, ../sass/global.scss */
 #region-branding p#menu {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 150%;
@@ -302,21 +302,21 @@ img, embed, object, video {
   top: -4px;
 }
 
-/* line 266, ../sass/global.scss */
+/* line 270, ../sass/global.scss */
 #region-menu ul.menu {
   padding-bottom: 1.5em;
 }
-/* line 270, ../sass/global.scss */
+/* line 274, ../sass/global.scss */
 #region-menu ul.menu li:last-child {
   border-bottom: 5px solid #991f1f;
 }
-/* line 274, ../sass/global.scss */
+/* line 278, ../sass/global.scss */
 #region-menu ul.menu li a {
-  font-size: 125%;
+  font-size: 130%;
   padding: 0.5em 1.333em;
   color: #000;
 }
-/* line 279, ../sass/global.scss */
+/* line 283, ../sass/global.scss */
 #region-menu ul.menu li a:hover {
   background: #991f1f;
   color: #FFF;
@@ -324,12 +324,12 @@ img, embed, object, video {
 }
 
 /* Additional Text Styling */
-/* line 289, ../sass/global.scss */
+/* line 293, ../sass/global.scss */
 .smallcaps {
   font-variant: small-caps;
 }
 
-/* line 293, ../sass/global.scss */
+/* line 297, ../sass/global.scss */
 blockquote {
   border-left: 1px dashed #AAAAAA;
   color: #555;
@@ -340,11 +340,11 @@ blockquote {
 }
 
 /* Masthead/Staff Page */
-/* line 304, ../sass/global.scss */
+/* line 308, ../sass/global.scss */
 div.staff {
   padding-bottom: 0.5em;
 }
-/* line 307, ../sass/global.scss */
+/* line 311, ../sass/global.scss */
 div.staff img {
   float: left;
   padding: 0px 15px 0px 0px;
@@ -352,13 +352,13 @@ div.staff img {
 }
 
 /* Footer */
-/* line 315, ../sass/global.scss */
+/* line 319, ../sass/global.scss */
 div#zone-footer-wrapper {
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 320, ../sass/global.scss */
+/* line 324, ../sass/global.scss */
 #region-footer-first p {
   padding-top: 1em;
   color: #FFF;
@@ -369,7 +369,7 @@ div#zone-footer-wrapper {
   letter-spacing: 0.09em;
 }
 
-/* line 330, ../sass/global.scss */
+/* line 334, ../sass/global.scss */
 #region-footer-first p a {
   text-shadow: none;
   font-weight: 700;
@@ -378,13 +378,13 @@ div#zone-footer-wrapper {
 
 /**** Buttons ****/
 /* Button Positioning */
-/* line 338, ../sass/global.scss */
+/* line 342, ../sass/global.scss */
 #region-user-second .btn-3a {
   margin: 10px 10px;
 }
 
 /* General button style (reset) */
-/* line 343, ../sass/global.scss */
+/* line 347, ../sass/global.scss */
 .btn {
   border: none;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -404,7 +404,7 @@ div#zone-footer-wrapper {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 361, ../sass/global.scss */
+/* line 365, ../sass/global.scss */
 .btn:after {
   content: '';
   position: absolute;
@@ -415,21 +415,21 @@ div#zone-footer-wrapper {
 }
 
 /* Button 3 */
-/* line 372, ../sass/global.scss */
+/* line 376, ../sass/global.scss */
 .btn-3 {
   background: #991f1f;
   color: #fff;
 }
-/* line 376, ../sass/global.scss */
+/* line 380, ../sass/global.scss */
 .btn-3:hover {
   background: #841b1b;
 }
-/* line 380, ../sass/global.scss */
+/* line 384, ../sass/global.scss */
 .btn-3:active {
   background: #6f1616;
   top: 2px;
 }
-/* line 385, ../sass/global.scss */
+/* line 389, ../sass/global.scss */
 .btn-3:before {
   position: absolute;
   height: 100%;
@@ -441,11 +441,11 @@ div#zone-footer-wrapper {
 }
 
 /* Button 3a */
-/* line 397, ../sass/global.scss */
+/* line 401, ../sass/global.scss */
 .btn-3a {
   padding: 15px 13px 15px 69px;
 }
-/* line 400, ../sass/global.scss */
+/* line 404, ../sass/global.scss */
 .btn-3a:before {
   font-family: 'bkp';
   font-size: 24px;
@@ -459,95 +459,95 @@ div#zone-footer-wrapper {
   background: rgba(0, 0, 0, 0.05);
 }
 
-/* line 406, ../sass/global.scss */
+/* line 410, ../sass/global.scss */
 .btn-3b {
   padding-right: 22px;
   width: 225px;
 }
 
 /* Mobile Only Button Styling */
-/* line 412, ../sass/global.scss */
+/* line 416, ../sass/global.scss */
 button#submitbtn {
   display: none;
 }
 
-/* line 416, ../sass/global.scss */
+/* line 420, ../sass/global.scss */
 button#currentbtn {
   display: none;
 }
 
 /*** ICONS ***/
-/* line 421, ../sass/global.scss */
+/* line 425, ../sass/global.scss */
 .icon-eye:before, .icon-pen:before {
   line-height: 2;
 }
 
-/* line 425, ../sass/global.scss */
+/* line 429, ../sass/global.scss */
 .icon-eye:before {
   content: "\e006";
 }
 
-/* line 429, ../sass/global.scss */
+/* line 433, ../sass/global.scss */
 .icon-pen:before {
   content: "\e013";
 }
 
-/* line 433, ../sass/global.scss */
+/* line 437, ../sass/global.scss */
 .icon-pdf:before {
   content: "\e002";
 }
 
-/* line 437, ../sass/global.scss */
+/* line 441, ../sass/global.scss */
 .icon-pdf:before, .icon-ebook:before, .icon-money:before, .icon-fire:before {
   line-height: 1.75;
 }
 
-/* line 441, ../sass/global.scss */
+/* line 445, ../sass/global.scss */
 .icon-ebook:before {
   content: "\f02d";
 }
 
-/* line 445, ../sass/global.scss */
+/* line 449, ../sass/global.scss */
 .icon-money:before {
   content: "\f0d6";
 }
 
-/* line 449, ../sass/global.scss */
+/* line 453, ../sass/global.scss */
 .icon-fire:before {
   content: "\f27f";
 }
 
-/* line 453, ../sass/global.scss */
+/* line 457, ../sass/global.scss */
 .icon-menu:before {
   content: "\f039";
 }
 
 /**** Responsiveness for Views Slideshow *****/
-/* line 458, ../sass/global.scss */
+/* line 462, ../sass/global.scss */
 .views_slideshow_cycle_main {
   width: 100%;
   float: left;
 }
 
-/* line 462, ../sass/global.scss */
+/* line 466, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
   width: 100% !important;
   height: auto;
 }
 
-/* line 466, ../sass/global.scss */
+/* line 470, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
   height: auto;
 }
 
-/* line 470, ../sass/global.scss */
+/* line 474, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 474, ../sass/global.scss */
+/* line 478, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content img {
   width: 100%;
   height: auto;
@@ -555,4 +555,92 @@ button#currentbtn {
   padding: 0;
 }
 
+/*** Table Styling **/
+/* All Tables Styling */
+/* line 487, ../sass/global.scss */
+table {
+  width: 100%;
+}
+
+/* line 491, ../sass/global.scss */
+tr.even td {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile-Only Table Styling */
+/* line 496, ../sass/global.scss */
+td.views-field-field-image {
+  width: 125px;
+}
+
+/* line 500, ../sass/global.scss */
+td.views-field-field-image img {
+  padding: 0.5em;
+}
+
+/* line 504, ../sass/global.scss */
+td.views-field-body {
+  display: none;
+  font-size: 0.75em;
+}
+
+/* line 509, ../sass/global.scss */
+td.views-field-title {
+  text-align: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 515, ../sass/global.scss */
+td.views-field-title a {
+  display: block;
+  font-size: 1em;
+  text-align: center;
+}
+
 /*** Work Styling ***/
+/* line 523, ../sass/global.scss */
+div#work p.author {
+  padding-bottom: 2em;
+}
+/* line 525, ../sass/global.scss */
+div#work p.author em {
+  font-variant: small-caps;
+}
+/* line 529, ../sass/global.scss */
+div#work .dropcap {
+  float: left;
+  font-size: 400%;
+  margin-top: 14px;
+  margin-right: 5px;
+  color: #991f1f;
+}
+
+/* line 539, ../sass/global.scss */
+div.poetry p {
+  line-height: 130%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-indent: -2em;
+  margin-left: 2em;
+}
+/* line 546, ../sass/global.scss */
+div.poetry p.beforebreak {
+  padding-bottom: 1.5em;
+}
+/* line 549, ../sass/global.scss */
+div.poetry p.indent2 {
+  padding-left: 2em;
+}
+
+/* line 554, ../sass/global.scss */
+div#bio {
+  border-top: 2px solid #991f1f;
+  padding-top: 0.75em;
+}
+/* line 557, ../sass/global.scss */
+div#bio p {
+  font-size: 1em;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}

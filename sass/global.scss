@@ -216,6 +216,10 @@ img, embed, object, video {
 	height: auto;
 }
 
+img.fixed {
+
+}
+
 /* Logo Positioning */
 #region-user-first {
 	float: left;
@@ -272,7 +276,7 @@ img, embed, object, video {
 		}
 		
 		a {
-			font-size: 125%;
+			font-size: 130%;
 			padding: 0.5em 1.333em;
 			color: #000;
 			
@@ -478,11 +482,82 @@ button#currentbtn {
   padding: 0;
 }
 
+/*** Table Styling **/
+/* All Tables Styling */
+table {
+	width: 100%;
+}
+
+tr.even td {
+	background: rgba(0,0,0,0.2);
+}
+
+/* Mobile-Only Table Styling */
+td.views-field-field-image {
+	width: 125px;
+}
+
+td.views-field-field-image img {
+	padding: 0.5em;
+}
+
+td.views-field-body {
+	display: none;
+	font-size: 0.75em;
+}
+
+td.views-field-title {
+	text-align: left;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+td.views-field-title a {
+	display: block;
+	font-size: 1em;
+	text-align: center;
+}
+
 /*** Work Styling ***/
 div#work {
-	p {
-		
+	p.author {
+		padding-bottom: 2em;
+		em {
+			font-variant: small-caps;
+		}
+	}
+	.dropcap {
+		float: left;
+		font-size: 400%;
+		margin-top: 14px;
+		margin-right: 5px;
+		color: $baseRed;
 	}
 }
 
+div.poetry {
+	p {
+		line-height: 130%;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		text-indent: -2em;
+		margin-left: 2em;
+	}
+	p.beforebreak {
+		padding-bottom: 1.5em;
+	}
+	p.indent2 {
+		padding-left: 2em;
+	}
+}
+
+div#bio {
+	border-top: 2px solid $baseRed;
+	padding-top: 0.75em;
+	p {
+		font-size: 1em;
+		margin-bottom: 0;
+		padding-bottom: 1em;
+	}
+}
 

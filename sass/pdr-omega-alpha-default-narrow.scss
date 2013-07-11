@@ -49,3 +49,17 @@ div#work {
 	}
 }
 
+/*** Table Styling ***/
+td.views-field-body {
+    display: table-cell;
+}
+
+td.views-field-title {
+	min-width: 180px;
+	a {
+    	display: inline;
+    	text-align: center;
+	}
+}
+
+
