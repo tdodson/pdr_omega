@@ -483,91 +483,92 @@ div#zone-footer-wrapper {
 .btn-3b {
   padding-right: 22px;
   width: 225px;
+  font-size: 0.75em;
 }
 
 /* Mobile Only Button Styling */
-/* line 425, ../sass/global.scss */
+/* line 426, ../sass/global.scss */
 button#submitbtn {
   display: none;
 }
 
-/* line 429, ../sass/global.scss */
+/* line 430, ../sass/global.scss */
 button#currentbtn {
   display: none;
 }
 
 /*** ICONS ***/
-/* line 434, ../sass/global.scss */
+/* line 435, ../sass/global.scss */
 .icon-eye:before, .icon-pen:before {
   line-height: 2;
 }
 
-/* line 438, ../sass/global.scss */
+/* line 439, ../sass/global.scss */
 .icon-eye:before {
   content: "\e006";
 }
 
-/* line 442, ../sass/global.scss */
+/* line 443, ../sass/global.scss */
 .icon-pen:before {
   content: "\e013";
 }
 
-/* line 446, ../sass/global.scss */
+/* line 447, ../sass/global.scss */
 .icon-pdf:before {
   content: "\e002";
 }
 
-/* line 450, ../sass/global.scss */
+/* line 451, ../sass/global.scss */
 .icon-pdf:before, .icon-ebook:before, .icon-money:before, .icon-fire:before {
   line-height: 1.75;
 }
 
-/* line 454, ../sass/global.scss */
+/* line 455, ../sass/global.scss */
 .icon-ebook:before {
   content: "\f02d";
 }
 
-/* line 458, ../sass/global.scss */
+/* line 459, ../sass/global.scss */
 .icon-money:before {
   content: "\f0d6";
 }
 
-/* line 462, ../sass/global.scss */
+/* line 463, ../sass/global.scss */
 .icon-fire:before {
   content: "\f27f";
 }
 
-/* line 466, ../sass/global.scss */
+/* line 467, ../sass/global.scss */
 .icon-menu:before {
   content: "\f039";
 }
 
 /**** Responsiveness for Views Slideshow *****/
-/* line 471, ../sass/global.scss */
+/* line 472, ../sass/global.scss */
 .views_slideshow_cycle_main {
   width: 100%;
   float: left;
 }
 
-/* line 475, ../sass/global.scss */
+/* line 476, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
   width: 100% !important;
   height: auto;
 }
 
-/* line 479, ../sass/global.scss */
+/* line 480, ../sass/global.scss */
 .views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
   width: 100% !important;
   height: auto;
 }
 
-/* line 483, ../sass/global.scss */
+/* line 484, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 487, ../sass/global.scss */
+/* line 488, ../sass/global.scss */
 .views_slideshow_cycle_main .field-content img {
   width: 100%;
   height: auto;
@@ -577,41 +578,41 @@ button#currentbtn {
 
 /*** Table Styling **/
 /* All Tables Styling */
-/* line 496, ../sass/global.scss */
+/* line 497, ../sass/global.scss */
 table {
   width: 100%;
 }
 
-/* line 500, ../sass/global.scss */
+/* line 501, ../sass/global.scss */
 tr.even td {
   background: rgba(0, 0, 0, 0.2);
 }
 
 /* Mobile-Only Table Styling */
-/* line 505, ../sass/global.scss */
+/* line 506, ../sass/global.scss */
 td.views-field-field-image {
   width: 125px;
 }
 
-/* line 509, ../sass/global.scss */
+/* line 510, ../sass/global.scss */
 td.views-field-field-image img {
   padding: 0.5em;
 }
 
-/* line 513, ../sass/global.scss */
+/* line 514, ../sass/global.scss */
 td.views-field-body {
   display: none;
   font-size: 0.75em;
 }
 
-/* line 518, ../sass/global.scss */
+/* line 519, ../sass/global.scss */
 td.views-field-title {
   text-align: left;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-/* line 524, ../sass/global.scss */
+/* line 525, ../sass/global.scss */
 td.views-field-title a {
   display: block;
   font-size: 1em;
@@ -619,7 +620,7 @@ td.views-field-title a {
 }
 
 /*** Work Styling ***/
-/* line 531, ../sass/global.scss */
+/* line 532, ../sass/global.scss */
 #region-content div.field-name-field-notes {
   float: right;
   margin-top: 1em;
@@ -637,21 +638,21 @@ td.views-field-title a {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-/* line 547, ../sass/global.scss */
+/* line 548, ../sass/global.scss */
 #region-content div.field-name-field-notes p {
-  font-size: 0.85em;
+  font-size: 0.95em;
   color: white;
   padding-bottom: 0;
   margin-bottom: 0;
 }
-/* line 553, ../sass/global.scss */
+/* line 554, ../sass/global.scss */
 #region-content div.field-name-field-notes a {
   color: #FFF;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-decoration: underline;
 }
-/* line 559, ../sass/global.scss */
+/* line 560, ../sass/global.scss */
 #region-content div.field-name-field-notes span.icon {
   font-family: 'bkp';
   font-size: 24px;
@@ -667,17 +668,17 @@ td.views-field-title a {
   font-size: 16px;
 }
 
-/* line 570, ../sass/global.scss */
+/* line 569, ../sass/global.scss */
 div#work p.author {
   margin-top: -1em;
   padding-left: 2.5em;
   padding-bottom: 2em;
 }
-/* line 574, ../sass/global.scss */
+/* line 573, ../sass/global.scss */
 div#work p.author em {
   font-variant: small-caps;
 }
-/* line 578, ../sass/global.scss */
+/* line 577, ../sass/global.scss */
 div#work .dropcap {
   float: left;
   font-size: 400%;
@@ -686,7 +687,7 @@ div#work .dropcap {
   color: #991f1f;
 }
 
-/* line 588, ../sass/global.scss */
+/* line 587, ../sass/global.scss */
 div.poetry p {
   line-height: 130%;
   padding-bottom: 0;
@@ -694,21 +695,21 @@ div.poetry p {
   text-indent: -2em;
   margin-left: 2em;
 }
-/* line 595, ../sass/global.scss */
+/* line 594, ../sass/global.scss */
 div.poetry p.beforebreak {
   padding-bottom: 1.5em;
 }
-/* line 598, ../sass/global.scss */
+/* line 597, ../sass/global.scss */
 div.poetry p.indent2 {
   padding-left: 2em;
 }
 
-/* line 603, ../sass/global.scss */
+/* line 602, ../sass/global.scss */
 div#bio {
   border-top: 2px solid #991f1f;
   padding-top: 0.75em;
 }
-/* line 606, ../sass/global.scss */
+/* line 605, ../sass/global.scss */
 div#bio p {
   font-size: 1em;
   margin-bottom: 0;
