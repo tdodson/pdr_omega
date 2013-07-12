@@ -550,6 +550,12 @@ td.views-field-title a {
 		padding-bottom: 0;
 		margin-bottom: 0;
 	}
+	a {
+		color: #FFF;
+		font-family: $sans;
+		font-weight: 700;
+		text-decoration: underline;
+	}
 	span.icon {
 		@include icon;
 		color: $baseRed;

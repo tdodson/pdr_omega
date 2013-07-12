@@ -645,6 +645,13 @@ td.views-field-title a {
   margin-bottom: 0;
 }
 /* line 553, ../sass/global.scss */
+#region-content div.field-name-field-notes a {
+  color: #FFF;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/* line 559, ../sass/global.scss */
 #region-content div.field-name-field-notes span.icon {
   font-family: 'bkp';
   font-size: 24px;
@@ -660,17 +667,17 @@ td.views-field-title a {
   font-size: 16px;
 }
 
-/* line 564, ../sass/global.scss */
+/* line 570, ../sass/global.scss */
 div#work p.author {
   margin-top: -1em;
   padding-left: 2.5em;
   padding-bottom: 2em;
 }
-/* line 568, ../sass/global.scss */
+/* line 574, ../sass/global.scss */
 div#work p.author em {
   font-variant: small-caps;
 }
-/* line 572, ../sass/global.scss */
+/* line 578, ../sass/global.scss */
 div#work .dropcap {
   float: left;
   font-size: 400%;
@@ -679,7 +686,7 @@ div#work .dropcap {
   color: #991f1f;
 }
 
-/* line 582, ../sass/global.scss */
+/* line 588, ../sass/global.scss */
 div.poetry p {
   line-height: 130%;
   padding-bottom: 0;
@@ -687,21 +694,21 @@ div.poetry p {
   text-indent: -2em;
   margin-left: 2em;
 }
-/* line 589, ../sass/global.scss */
+/* line 595, ../sass/global.scss */
 div.poetry p.beforebreak {
   padding-bottom: 1.5em;
 }
-/* line 592, ../sass/global.scss */
+/* line 598, ../sass/global.scss */
 div.poetry p.indent2 {
   padding-left: 2em;
 }
 
-/* line 597, ../sass/global.scss */
+/* line 603, ../sass/global.scss */
 div#bio {
   border-top: 2px solid #991f1f;
   padding-top: 0.75em;
 }
-/* line 600, ../sass/global.scss */
+/* line 606, ../sass/global.scss */
 div#bio p {
   font-size: 1em;
   margin-bottom: 0;
