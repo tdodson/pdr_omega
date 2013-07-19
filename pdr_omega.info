@@ -357,4 +357,4 @@ fonts[google_fonts_api][] = "Lato&subset=latin#700italic"
 libraries[PDR_custom][name] = Custom JScript
 libraries[PDR_custom][description] = Mobile Menu
 libraries[PDR_custom][js][0][file] = script.js
-libraries[PDR_custom][js][0][options][weight] = 15
+libraries[swfobject][js][0][options][weight] = 15
