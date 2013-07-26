@@ -691,8 +691,13 @@ div#work .dropcap {
   margin-right: 5px;
   color: #991f1f;
 }
+/* line 588, ../sass/global.scss */
+div#work .red {
+  font-weight: bold;
+  color: #991f1f;
+}
 
-/* line 591, ../sass/global.scss */
+/* line 595, ../sass/global.scss */
 div.poetry p {
   line-height: 130%;
   padding-bottom: 0;
@@ -700,21 +705,21 @@ div.poetry p {
   text-indent: -2em;
   margin-left: 2em;
 }
-/* line 598, ../sass/global.scss */
+/* line 602, ../sass/global.scss */
 div.poetry p.beforebreak {
   padding-bottom: 1.5em;
 }
-/* line 601, ../sass/global.scss */
+/* line 605, ../sass/global.scss */
 div.poetry p.indent2 {
   padding-left: 2em;
 }
 
-/* line 606, ../sass/global.scss */
+/* line 610, ../sass/global.scss */
 div#bio {
   border-top: 2px solid #991f1f;
   padding-top: 0.75em;
 }
-/* line 609, ../sass/global.scss */
+/* line 613, ../sass/global.scss */
 div#bio p {
   font-size: 1em;
   margin-bottom: 0;
