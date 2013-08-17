@@ -159,6 +159,10 @@ body.front {
 	display: inline;
 	padding-right: 0.4em;
 	color: $baseRed;
+	&#tumblr {
+		font-size: 27px;
+		vertical-align: 2px;
+	}
 	a {
 		&:link {
 			color: $baseRed;
@@ -176,10 +180,7 @@ body.front {
 	}
 }
 
-.followus p#tumblr.icon {
-		font-size: 27px;
-		vertical-align: 2px;
-	}
+
 
 /* Search Button Styling */
 #block-search-form input.form-submit[type="submit"] {
