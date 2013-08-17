@@ -174,10 +174,12 @@ body.front {
 			color: $baseRed;
 		}
 	}
-	p#tumblr {
-		font-size: 24px;
-	}
 }
+
+.followus p#tumblr {
+		font-size: 28px;
+		vertical-align: top;
+	}
 
 /* Search Button Styling */
 #block-search-form input.form-submit[type="submit"] {
