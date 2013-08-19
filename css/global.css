@@ -734,6 +734,6 @@ div#bio p {
 /** Blog Entry Styling **/
 /* line 627, ../sass/global.scss */
 div.field-type-datetime {
-  margin-top: -2em;
-  padding-bottom: 2em;
+  margin-top: -1.8em;
+  padding-bottom: 1.8em;
 }
