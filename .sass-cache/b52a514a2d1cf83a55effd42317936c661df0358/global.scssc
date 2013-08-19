@@ -1,5 +1,5 @@
 3.2.9 (Media Mark)
-87e24f27ebc827a14dc644ad6998e5f752f4b364
+62bc31f8a5623cafd50186504ebd608eb2cf35df
 o:Sass::Tree::RootNode
 :@template"¡&/* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
@@ -628,8 +628,8 @@ div#bio {
 
 /** Blog Entry Styling **/
 div.field-type-datetime {
-	margin-top: -1.8em;
-	padding-bottom: 1.8em;
+	margin-top: -1.5em;
+	padding-bottom: 1.5em;
 }:@has_childrenT:@options{ :@children[io:Sass::Tree::CommentNode
 :
 @type:normal:@value["\/* This file will hold styles for the mobile version of your website (mobile first). */;@;	[ :
@@ -1025,5 +1025,5 @@ solid;@;iio;3	;"baseRed;@;ii;4"baseRed;@;ii; ;!;;;@;i ;	[
 ;*0;+o;,;-{ ;'[o;.	;["p;/0;0" ;ik;0@H;ik;0@H;ik;T;@;i ;	[o;;["font-size;o;;;;"1em;@;;;@;i ;	[ ;ilo;;["margin-bottom;o;;;;"0;@;;;@;i ;	[ ;imo;;["padding-bottom;o;;;;"1em;@;;;@;i ;	[ ;in;ik;iho;
 
 ;;;["/** Blog Entry Styling **/;@;	[ ;iro;#;$["div.field-type-datetime;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;.	;["div;/0;0" ;iso;1;["field-type-datetime;0@n;is;0@n;is;0@n;is;T;@;i ;	[o;;["margin-top;o;;;;"-1.8em;@;;;@;i ;	[ ;ito;;["padding-bottom;o;;;;"
-1.8em;@;;;@;i ;	[ ;iu;is;i
+;*0;+o;,;-{ ;'[o;.	;["div;/0;0" ;iso;1;["field-type-datetime;0@n;is;0@n;is;0@n;is;T;@;i ;	[o;;["margin-top;o;;;;"-1.5em;@;;;@;i ;	[ ;ito;;["padding-bottom;o;;;;"
+1.5em;@;;;@;i ;	[ ;iu;is;i
