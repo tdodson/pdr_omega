@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-5f1cde2797ab5b2c5fdc921b0cda78ad31849805
+833bc4a929b938a28f03a55fd3bd5275d8e18ad1
 o:Sass::Tree::RootNode
-:@template">&/* This file will hold styles for the mobile version of your website (mobile first). */
+:@template"ù&/* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /* Import SASS Base Partial */
@@ -626,7 +626,11 @@ div#bio {
 	}
 }
 
-:@has_childrenT:@options{ :@children[go:Sass::Tree::CommentNode
+/** Blog Entry Styling **/
+div.field-type-datetime {
+	margin-top: -2em;
+	padding-bottom: 2em;
+}:@has_childrenT:@options{ :@children[io:Sass::Tree::CommentNode
 :
 @type:normal:@value["\/* This file will hold styles for the mobile version of your website (mobile first). */;@;	[ :
 @lineio;
@@ -1018,4 +1022,7 @@ o;;["line-height;o;;;;"	130%;@;;;@;i ;	[ ;iZo;;["paddi
 ;*0;+o;,;-{ ;'[o;.	;["p;/0;0" ;ico;1;["indent2;0@;ic;0@;ic;0@;ic;T;@;i ;	[o;;["padding-left;o;;;;"2em;@;;;@;i ;	[ ;id;ic;iXo;#;$["div#bio;%o;&;'[o;(;'[o;)
 ;*0;+o;,;-{ ;'[o;.	;["div;/0;0" ;iho;=;["bio;0@;ih;0@;ih;0@;ih;T;@;i ;	[o;;["border-top;o;	;[o;9;:[ ;;["px;i;@;<"2px;iio;	;;;"
 solid;@;iio;3	;"baseRed;@;ii;4"baseRed;@;ii; ;!;;;@;i ;	[ ;iio;;["padding-top;o;;;;"0.75em;@;;;@;i ;	[ ;ijo;#;$["p;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;.	;["p;/0;0" ;ik;0@H;ik;0@H;ik;T;@;i ;	[o;;["font-size;o;;;;"1em;@;;;@;i ;	[ ;ilo;;["margin-bottom;o;;;;"0;@;;;@;i ;	[ ;imo;;["padding-bottom;o;;;;"1em;@;;;@;i ;	[ ;in;ik;ih;i
+;*0;+o;,;-{ ;'[o;.	;["p;/0;0" ;ik;0@H;ik;0@H;ik;T;@;i ;	[o;;["font-size;o;;;;"1em;@;;;@;i ;	[ ;ilo;;["margin-bottom;o;;;;"0;@;;;@;i ;	[ ;imo;;["padding-bottom;o;;;;"1em;@;;;@;i ;	[ ;in;ik;iho;
+
+;;;["/** Blog Entry Styling **/;@;	[ ;iro;#;$["div.field-type-datetime;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;.	;["div;/0;0" ;iso;1;["field-type-datetime;0@n;is;0@n;is;0@n;is;T;@;i ;	[o;;["margin-top;o;;;;"	-2em;@;;;@;i ;	[ ;ito;;["padding-bottom;o;;;;"2em;@;;;@;i ;	[ ;iu;is;i
