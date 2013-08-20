@@ -116,6 +116,9 @@ body.front {
 			padding-bottom: 0.85em;
 		}
 	}
+	.frommag p.more {
+		display: none;
+	}
 	.fromblog {
 		font-family: $sans;
 		font-weight: 700;
@@ -198,6 +201,13 @@ body.front {
 		background: transparent;
 		color: $baseRed;
 	}
+}
+
+/* Sibebar More Link Styling */
+#region-sidebar-second p.more {
+	margin-top: -1em; 
+	font-size:90%; 
+	text-decoration: underline;
 }
 
 /* Issue Sidebars Styling */
@@ -628,3 +638,4 @@ div.field-type-datetime {
 	margin-top: -1.5em;
 	padding-bottom: 1.5em;
 }
+
