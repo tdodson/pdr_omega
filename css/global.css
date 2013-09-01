@@ -691,16 +691,20 @@ audio {
 }
 
 /* line 589, ../sass/global.scss */
+div#work p.epigraph {
+  font-size: 100%;
+}
+/* line 592, ../sass/global.scss */
 div#work p.author {
   margin-top: -1em;
   padding-left: 2.5em;
   padding-bottom: 2em;
 }
-/* line 593, ../sass/global.scss */
+/* line 596, ../sass/global.scss */
 div#work p.author em {
   font-variant: small-caps;
 }
-/* line 597, ../sass/global.scss */
+/* line 600, ../sass/global.scss */
 div#work .dropcap {
   float: left;
   font-size: 400%;
@@ -708,13 +712,13 @@ div#work .dropcap {
   margin-right: 5px;
   color: #991f1f;
 }
-/* line 604, ../sass/global.scss */
+/* line 607, ../sass/global.scss */
 div#work .red {
   font-weight: bold;
   color: #991f1f;
 }
 
-/* line 611, ../sass/global.scss */
+/* line 614, ../sass/global.scss */
 div.poetry p {
   line-height: 130%;
   padding-bottom: 0;
@@ -722,21 +726,21 @@ div.poetry p {
   text-indent: -2em;
   margin-left: 2em;
 }
-/* line 618, ../sass/global.scss */
+/* line 621, ../sass/global.scss */
 div.poetry p.beforebreak {
   padding-bottom: 1.5em;
 }
-/* line 621, ../sass/global.scss */
+/* line 624, ../sass/global.scss */
 div.poetry p.indent2 {
   padding-left: 2em;
 }
 
-/* line 626, ../sass/global.scss */
+/* line 629, ../sass/global.scss */
 div#bio {
   border-top: 2px solid #991f1f;
   padding-top: 0.75em;
 }
-/* line 629, ../sass/global.scss */
+/* line 632, ../sass/global.scss */
 div#bio p {
   font-size: 1em;
   margin-bottom: 0;
@@ -744,7 +748,7 @@ div#bio p {
 }
 
 /** Blog Entry Styling **/
-/* line 637, ../sass/global.scss */
+/* line 640, ../sass/global.scss */
 div.field-type-datetime {
   margin-top: -1.5em;
   padding-bottom: 1.5em;
