@@ -744,18 +744,23 @@ div#work #toc ul li {
   line-height: 150%;
 }
 /* line 634, ../sass/global.scss */
+div#work blockquote {
+  font-size: 115%;
+  line-height: 150%;
+}
+/* line 638, ../sass/global.scss */
 div#work sup {
   vertical-align: super;
   font-size: 0.75em;
 }
-/* line 638, ../sass/global.scss */
+/* line 642, ../sass/global.scss */
 div#work div.pullquote {
   color: #991f1f;
   font-size: 125%;
   padding: 0 3em;
 }
 
-/* line 646, ../sass/global.scss */
+/* line 650, ../sass/global.scss */
 div.poetry p {
   line-height: 130%;
   padding-bottom: 0;
@@ -763,21 +768,21 @@ div.poetry p {
   text-indent: -2em;
   margin-left: 2em;
 }
-/* line 653, ../sass/global.scss */
+/* line 657, ../sass/global.scss */
 div.poetry p.beforebreak {
   padding-bottom: 1.5em;
 }
-/* line 656, ../sass/global.scss */
+/* line 660, ../sass/global.scss */
 div.poetry p.indent2 {
   padding-left: 2em;
 }
 
-/* line 661, ../sass/global.scss */
+/* line 665, ../sass/global.scss */
 div#bio {
   border-top: 2px solid #991f1f;
   padding-top: 0.75em;
 }
-/* line 664, ../sass/global.scss */
+/* line 668, ../sass/global.scss */
 div#bio p {
   font-size: 1em;
   margin-bottom: 0;
@@ -785,7 +790,7 @@ div#bio p {
 }
 
 /** Blog Entry Styling **/
-/* line 672, ../sass/global.scss */
+/* line 676, ../sass/global.scss */
 div.field-type-datetime {
   margin-top: -1.5em;
   padding-bottom: 1.5em;
