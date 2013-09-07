@@ -635,6 +635,11 @@ div#work {
 		vertical-align: super;
 		font-size: 0.75em;
 	}
+	div.pullquote {
+		color: $baseRed;
+		font-size: 125%;
+		padding: 0 3em;
+	}
 }
 
 div.poetry {
