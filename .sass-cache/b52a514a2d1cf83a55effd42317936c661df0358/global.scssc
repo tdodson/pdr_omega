@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-7ccded97b5ba7f6221889a7f21edb227c652b213
+75a0877ea010a3382f6da29b85bfe23a9779cf06
 o:Sass::Tree::RootNode
-:@template"È+/* This file will hold styles for the mobile version of your website (mobile first). */
+:@template"¶+/* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /* Import SASS Base Partial */
@@ -682,18 +682,15 @@ div.field-type-datetime {
 }
 /** Blog Page pager **/
 
-
 .pager li.first, .pager li.first a, .pager li.first a:hover {
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 
 }
-.itemlist {
-	padding-bottom: 2.5em;
-}
 
 .pager {
+	padding-bottom: 2.5em;
 	background: none;
 	border: none;
 	border-color: none;
@@ -715,9 +712,9 @@ div.field-type-datetime {
 	top: 0;
 	right: 0;
 	background: none;
-	background-color: $baseRed
+	background-color: none;
 }
-:@has_childrenT:@options{ :@children[qo:Sass::Tree::CommentNode
+:@has_childrenT:@options{ :@children[po:Sass::Tree::CommentNode
 :
 @type:normal:@value["\/* This file will hold styles for the mobile version of your website (mobile first). */;@;	[ :
 @lineio;
@@ -1157,43 +1154,42 @@ solid;@;išo;3	;"baseRed;@;iš;4"baseRed;@;iš; ;!;;;@;i ;	[
 
 ;;;["/** Blog Page pager **/;@;	[ ;i¨o;#;$["@.pager li.first, .pager li.first a, .pager li.first a:hover;%o;&;'[o;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0" ;i«;0@*;i«o;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;i«o;1;["
-first;0@*;i«;0@*;i«o;(;'[o;)
+pager;0" ;iª;0@*;iªo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;iªo;1;["
+first;0@*;iª;0@*;iªo;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0@*;i«;0@*;i«o;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;i«o;1;["
-first;0@*;i«;0@*;i«o;)
-;*0;+o;,;-{ ;'[o;.	;["a;/0;0@*;i«;0@*;i«o;(;'[o;)
+pager;0@*;iª;0@*;iªo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;iªo;1;["
+first;0@*;iª;0@*;iªo;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@*;iª;0@*;iªo;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0@*;i«;0@*;i«o;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;i«o;1;["
-first;0@*;i«;0@*;i«o;)
-;*0;+o;,;-{ ;'[o;.	;["a;/0;0@*;i«o;6
+pager;0@*;iª;0@*;iªo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;iªo;1;["
+first;0@*;iª;0@*;iªo;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@*;iªo;6
 ;["
-hover;;7;80;0@*;i«;0@*;i«;0@*;i«;T;@;i ;	[o;;["border-radius;o;;;;"0;@;;;@;i ;	[ ;i¬o;;["-moz-border-radius;o;;;;"0;@;;;@;i ;	[ ;i­o;;["-webkit-border-radius;o;;;;"0;@;;;@;i ;	[ ;i®;i«o;#;$[".itemlist;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;1;["itemlist;0" ;i±;0@;i±;0@;i±;T;@;i ;	[o;;["padding-bottom;o;;;;"
-2.5em;@;;;@;i ;	[ ;i²;i±o;#;$[".pager;%o;&;'[o;(;'[o;)
+hover;;7;80;0@*;iª;0@*;iª;0@*;iª;T;@;i ;	[o;;["border-radius;o;;;;"0;@;;;@;i ;	[ ;i«o;;["-moz-border-radius;o;;;;"0;@;;;@;i ;	[ ;i¬o;;["-webkit-border-radius;o;;;;"0;@;;;@;i ;	[ ;i­;iªo;#;$[".pager;%o;&;'[o;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0" ;iµ;0@£;iµ;0@£;iµ;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;i¶o;;["border;o;;;;"	none;@;;;@;i ;	[ ;i·o;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;i¸o;;["border-radius;o;;;;"	none;@;;;@;i ;	[ ;i¹o;;["-moz-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iºo;;["-webkit-border-radius;o;;;;"	none;@;;;@;i ;	[ ;i»o;#;$["li;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0" ;i¼;0@×;i¼;0@×;i¼;T;@;i ;	[	o;;["border-right;o;;;;"	none;@;;;@;i ;	[ ;i½o;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;i¾o;;["border;o;	;[o;9;:[ ;;["px;i;@;<"1px;i¿o;	;;;"
-solid;@;i¿o;3	;"baseRed;@;i¿;4"baseRed;@;i¿; ;!;;;@;i ;	[ ;i¿o;#;$["a;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;.	;["a;/0;0" ;iÀ;0@;iÀ;0@;iÀ;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;iÁ;iÀ;i¼;iµo;#;$["y.pager li.pager-current, .pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous;%o;&;'[
+pager;0" ;i±;0@;i±;0@;i±;T;@;i ;	[o;;["padding-bottom;o;;;;"
+2.5em;@;;;@;i ;	[ ;i²o;;["background;o;;;;"	none;@;;;@;i ;	[ ;i³o;;["border;o;;;;"	none;@;;;@;i ;	[ ;i´o;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;iµo;;["border-radius;o;;;;"	none;@;;;@;i ;	[ ;i¶o;;["-moz-border-radius;o;;;;"	none;@;;;@;i ;	[ ;i·o;;["-webkit-border-radius;o;;;;"	none;@;;;@;i ;	[ ;i¸o;#;$["li;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0" ;i¹;0@Ç;i¹;0@Ç;i¹;T;@;i ;	[	o;;["border-right;o;;;;"	none;@;;;@;i ;	[ ;iºo;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;i»o;;["border;o;	;[o;9;:[ ;;["px;i;@;<"1px;i¼o;	;;;"
+solid;@;i¼o;3	;"baseRed;@;i¼;4"baseRed;@;i¼; ;!;;;@;i ;	[ ;i¼o;#;$["a;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0" ;i½;0@ó;i½;0@ó;i½;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;i¾;i½;i¹;i±o;#;$["y.pager li.pager-current, .pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous;%o;&;'[
 o;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0" ;iÆ;0@;iÆo;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@;iÆo;1;["pager-current;0@;iÆ;0@;iÆo;(;'[o;)
+pager;0" ;iÃ;0@	;iÃo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@	;iÃo;1;["pager-current;0@	;iÃ;0@	;iÃo;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0@;iÆ;0@;iÆo;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@;iÆo;1;["pager-next;0@;iÆ;0@;iÆo;(;'[o;)
+pager;0@	;iÃ;0@	;iÃo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@	;iÃo;1;["pager-next;0@	;iÃ;0@	;iÃo;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0@;iÆ;0@;iÆo;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@;iÆo;1;["pager-last;0@;iÆ;0@;iÆo;(;'[o;)
+pager;0@	;iÃ;0@	;iÃo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@	;iÃo;1;["pager-last;0@	;iÃ;0@	;iÃo;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0@;iÆ;0@;iÆo;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@;iÆo;1;["pager-first;0@;iÆ;0@;iÆo;(;'[o;)
+pager;0@	;iÃ;0@	;iÃo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@	;iÃo;1;["pager-first;0@	;iÃ;0@	;iÃo;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0@;iÆ;0@;iÆo;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@;iÆo;1;["pager-previous;0@;iÆ;0@;iÆ;0@;iÆ;T;@;i ;	[
-o;;["position;o;;;;"relative;@;;;@;i ;	[ ;iÇo;;["top;o;;;;"0;@;;;@;i ;	[ ;iÈo;;["
-right;o;;;;"0;@;;;@;i ;	[ ;iÉo;;["background;o;;;;"	none;@;;;@;i ;	[ ;iÊo;;["background-color;o;3	;"baseRed;@;iË;4"baseRed;;;@;i ;	[ ;iÌ;iÆ;i
+pager;0@	;iÃ;0@	;iÃo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@	;iÃo;1;["pager-previous;0@	;iÃ;0@	;iÃ;0@	;iÃ;T;@;i ;	[
+o;;["position;o;;;;"relative;@;;;@;i ;	[ ;iÄo;;["top;o;;;;"0;@;;;@;i ;	[ ;iÅo;;["
+right;o;;;;"0;@;;;@;i ;	[ ;iÆo;;["background;o;;;;"	none;@;;;@;i ;	[ ;iÇo;;["background-color;o;;;;"	none;@;;;@;i ;	[ ;iÈ;iÃ;i

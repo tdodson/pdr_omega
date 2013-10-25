@@ -797,7 +797,7 @@ div.field-type-datetime {
 }
 
 /** Blog Page pager **/
-/* line 683, ../sass/global.scss */
+/* line 682, ../sass/global.scss */
 .pager li.first, .pager li.first a, .pager li.first a:hover {
   border-radius: 0;
   -moz-border-radius: 0;
@@ -805,12 +805,8 @@ div.field-type-datetime {
 }
 
 /* line 689, ../sass/global.scss */
-.itemlist {
-  padding-bottom: 2.5em;
-}
-
-/* line 693, ../sass/global.scss */
 .pager {
+  padding-bottom: 2.5em;
   background: none;
   border: none;
   border-color: none;
@@ -818,22 +814,22 @@ div.field-type-datetime {
   -moz-border-radius: none;
   -webkit-border-radius: none;
 }
-/* line 700, ../sass/global.scss */
+/* line 697, ../sass/global.scss */
 .pager li {
   border-right: none;
   border-color: none;
   border: 1px solid #991f1f;
 }
-/* line 704, ../sass/global.scss */
+/* line 701, ../sass/global.scss */
 .pager li a {
   background: none;
 }
 
-/* line 710, ../sass/global.scss */
+/* line 707, ../sass/global.scss */
 .pager li.pager-current, .pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous {
   position: relative;
   top: 0;
   right: 0;
   background: none;
-  background-color: #991f1f;
+  background-color: none;
 }

@@ -679,18 +679,15 @@ div.field-type-datetime {
 }
 /** Blog Page pager **/
 
-
 .pager li.first, .pager li.first a, .pager li.first a:hover {
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 
 }
-.itemlist {
-	padding-bottom: 2.5em;
-}
 
 .pager {
+	padding-bottom: 2.5em;
 	background: none;
 	border: none;
 	border-color: none;
@@ -712,5 +709,5 @@ div.field-type-datetime {
 	top: 0;
 	right: 0;
 	background: none;
-	background-color: $baseRed
+	background-color: none;
 }
