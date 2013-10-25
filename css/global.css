@@ -802,9 +802,11 @@ div.field-type-datetime {
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
+  background: none;
+  background-color: #991f1f;
 }
 
-/* line 689, ../sass/global.scss */
+/* line 691, ../sass/global.scss */
 .pager {
   padding-bottom: 2.5em;
   background: none;
@@ -814,18 +816,18 @@ div.field-type-datetime {
   -moz-border-radius: none;
   -webkit-border-radius: none;
 }
-/* line 697, ../sass/global.scss */
+/* line 699, ../sass/global.scss */
 .pager li {
   border-right: none;
   border-color: none;
   border: 1px solid #991f1f;
 }
-/* line 701, ../sass/global.scss */
+/* line 703, ../sass/global.scss */
 .pager li a {
   background: none;
 }
 
-/* line 707, ../sass/global.scss */
+/* line 709, ../sass/global.scss */
 .pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous, li.pager-last.last {
   position: relative;
   top: 0;
