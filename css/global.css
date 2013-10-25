@@ -797,15 +797,19 @@ div.field-type-datetime {
 }
 
 /** Blog Page pager **/
-/* line 681, ../sass/global.scss */
+/* line 683, ../sass/global.scss */
 .pager li.first, .pager li.first a, .pager li.first a:hover {
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
 }
 
-/* line 688, ../sass/global.scss */
-.pager {
+/* line 689, ../sass/global.scss */
+.itemlist {
+  padding-bottom: 2.5em;
+}
+/* line 691, ../sass/global.scss */
+.itemlist .pager {
   background: none;
   border: none;
   border-color: none;
@@ -813,19 +817,21 @@ div.field-type-datetime {
   -moz-border-radius: none;
   -webkit-border-radius: none;
 }
-/* line 695, ../sass/global.scss */
-.pager li {
+/* line 698, ../sass/global.scss */
+.itemlist .pager li {
   border-right: none;
   border-color: none;
   border: 1px solid #991f1f;
 }
-/* line 699, ../sass/global.scss */
-.pager li a {
+/* line 702, ../sass/global.scss */
+.itemlist .pager li a {
   background: none;
 }
-
-/* line 704, ../sass/global.scss */
-.pager li.pager-current {
+/* line 707, ../sass/global.scss */
+.itemlist .pager li.pager-current, .itemlist .pager li.pager-next, .itemlist .pager li.pager-last, .itemlist .pager li.pager-first, .itemlist .pager li.pager-previous {
+  position: relative;
+  top: 0;
+  right: 0;
   background: none;
   background-color: #991f1f;
 }

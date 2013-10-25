@@ -678,31 +678,37 @@ div.field-type-datetime {
 	padding-bottom: 1.5em;
 }
 /** Blog Page pager **/
+
+
 .pager li.first, .pager li.first a, .pager li.first a:hover {
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 
 }
-
-.pager {
-	background: none;
-	border: none;
-	border-color: none;
-	border-radius: none;
-	-moz-border-radius: none;
-	-webkit-border-radius: none;
-	li {
-	border-right: none;
-	border-color: none;
-	border: 1px solid $baseRed;
-		a {
-			background: none;
+.itemlist {
+	padding-bottom: 2.5em;
+	.pager {
+		background: none;
+		border: none;
+		border-color: none;
+		border-radius: none;
+		-moz-border-radius: none;
+		-webkit-border-radius: none;
+		li {
+		border-right: none;
+		border-color: none;
+		border: 1px solid $baseRed;
+			a {
+				background: none;
+			}
 		}
 	}
+	.pager li.pager-current, .pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous, {
+		position: relative;
+		top: 0;
+		right: 0;
+		background: none;
+		background-color: $baseRed
+	}
 }
-.pager li.pager-current {
-	background: none;
-	background-color: $baseRed
-}
-
