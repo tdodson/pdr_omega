@@ -685,16 +685,24 @@ div.field-type-datetime {
 
 }
 
-.pager li {
+.pager {
+	background: none;
+	border: none;
+	border-color: none;
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	li {
 	border-right: none;
 	border-color: none;
 	border: 1px solid $baseRed;
-	a {
-		background: none;
+		a {
+			background: none;
+		}
 	}
 }
-
 .pager li.pager-current {
+	background: none;
 	background-color: $baseRed
 }
 

@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-d4ded3a95562d1a09c2e7fcf5cbc2b29dc27996b
+35bd7916cd238846798468697ecf525066a25950
 o:Sass::Tree::RootNode
-:@template"v*/* This file will hold styles for the mobile version of your website (mobile first). */
+:@template"+/* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /* Import SASS Base Partial */
@@ -688,16 +688,24 @@ div.field-type-datetime {
 
 }
 
-.pager li {
+.pager {
+	background: none;
+	border: none;
+	border-color: none;
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	li {
 	border-right: none;
 	border-color: none;
 	border: 1px solid $baseRed;
-	a {
-		background: none;
+		a {
+			background: none;
+		}
 	}
 }
-
 .pager li.pager-current {
+	background: none;
 	background-color: $baseRed
 }
 
@@ -1155,12 +1163,12 @@ pager;0@*;i©;0@*;i©o;)
 first;0@*;i©;0@*;i©o;)
 ;*0;+o;,;-{ ;'[o;.	;["a;/0;0@*;i©o;6
 ;["
-hover;;7;80;0@*;i©;0@*;i©;0@*;i©;T;@;i ;	[o;;["border-radius;o;;;;"0;@;;;@;i ;	[ ;i™o;;["-moz-border-radius;o;;;;"0;@;;;@;i ;	[ ;i´o;;["-webkit-border-radius;o;;;;"0;@;;;@;i ;	[ ;i¨;i©o;#;$[".pager li;%o;&;'[o;(;'[o;)
+hover;;7;80;0@*;i©;0@*;i©;0@*;i©;T;@;i ;	[o;;["border-radius;o;;;;"0;@;;;@;i ;	[ ;i™o;;["-moz-border-radius;o;;;;"0;@;;;@;i ;	[ ;i´o;;["-webkit-border-radius;o;;;;"0;@;;;@;i ;	[ ;i¨;i©o;#;$[".pager;%o;&;'[o;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0" ;i∞;0@ç;i∞o;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@ç;i∞;0@ç;i∞;0@ç;i∞;T;@;i ;	[	o;;["border-right;o;;;;"	none;@;;;@;i ;	[ ;i±o;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;i≤o;;["border;o;	;[o;9;:[ ;;["px;i;@;<"1px;i≥o;	;;;"
-solid;@;i≥o;3	;"baseRed;@;i≥;4"baseRed;@;i≥; ;!;;;@;i ;	[ ;i≥o;#;$["a;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;.	;["a;/0;0" ;i¥;0@¿;i¥;0@¿;i¥;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;iµ;i¥;i∞o;#;$[".pager li.pager-current;%o;&;'[o;(;'[o;)
+pager;0" ;i∞;0@ç;i∞;0@ç;i∞;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;i±o;;["border;o;;;;"	none;@;;;@;i ;	[ ;i≤o;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;i≥o;;["border-radius;o;;;;"	none;@;;;@;i ;	[ ;i¥o;;["-moz-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iµo;;["-webkit-border-radius;o;;;;"	none;@;;;@;i ;	[ ;i∂o;#;$["li;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0" ;i∑;0@¡;i∑;0@¡;i∑;T;@;i ;	[	o;;["border-right;o;;;;"	none;@;;;@;i ;	[ ;i∏o;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;iπo;;["border;o;	;[o;9;:[ ;;["px;i;@;<"1px;i∫o;	;;;"
+solid;@;i∫o;3	;"baseRed;@;i∫;4"baseRed;@;i∫; ;!;;;@;i ;	[ ;i∫o;#;$["a;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0" ;iª;0@Ì;iª;0@Ì;iª;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;iº;iª;i∑;i∞o;#;$[".pager li.pager-current;%o;&;'[o;(;'[o;)
 ;*0;+o;,;-{ ;'[o;1;["
-pager;0" ;iπ;0@÷;iπo;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0@÷;iπo;1;["pager-current;0@÷;iπ;0@÷;iπ;0@÷;iπ;T;@;i ;	[o;;["background-color;o;3	;"baseRed;@;i∫;4"baseRed;;;@;i ;	[ ;iª;iπ;i
+pager;0" ;i¿;0@;i¿o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@;i¿o;1;["pager-current;0@;i¿;0@;i¿;0@;i¿;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;i¡o;;["background-color;o;3	;"baseRed;@;i¬;4"baseRed;;;@;i ;	[ ;i√;i¿;i

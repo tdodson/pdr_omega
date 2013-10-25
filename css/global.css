@@ -805,17 +805,27 @@ div.field-type-datetime {
 }
 
 /* line 688, ../sass/global.scss */
+.pager {
+  background: none;
+  border: none;
+  border-color: none;
+  border-radius: none;
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
+}
+/* line 695, ../sass/global.scss */
 .pager li {
   border-right: none;
   border-color: none;
   border: 1px solid #991f1f;
 }
-/* line 692, ../sass/global.scss */
+/* line 699, ../sass/global.scss */
 .pager li a {
   background: none;
 }
 
-/* line 697, ../sass/global.scss */
+/* line 704, ../sass/global.scss */
 .pager li.pager-current {
+  background: none;
   background-color: #991f1f;
 }
