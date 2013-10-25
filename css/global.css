@@ -795,3 +795,27 @@ div.field-type-datetime {
   margin-top: -1.5em;
   padding-bottom: 1.5em;
 }
+
+/** Blog Page pager **/
+/* line 681, ../sass/global.scss */
+.pager li.first, .pager li.first a, .pager li.first a:hover {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+/* line 688, ../sass/global.scss */
+.pager li {
+  border-right: none;
+  border-color: none;
+  border: 1px solid #991f1f;
+}
+/* line 692, ../sass/global.scss */
+.pager li a {
+  background: none;
+}
+
+/* line 697, ../sass/global.scss */
+.pager li.pager-current {
+  background-color: #991f1f;
+}

@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-741d3053a642f39e228d50fa677da3691c39baa1
+d4ded3a95562d1a09c2e7fcf5cbc2b29dc27996b
 o:Sass::Tree::RootNode
-:@template",)/* This file will hold styles for the mobile version of your website (mobile first). */
+:@template"v*/* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /* Import SASS Base Partial */
@@ -680,8 +680,28 @@ div.field-type-datetime {
 	margin-top: -1.5em;
 	padding-bottom: 1.5em;
 }
+/** Blog Page pager **/
+.pager li.first, .pager li.first a, .pager li.first a:hover {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
 
-:@has_childrenT:@options{ :@children[lo:Sass::Tree::CommentNode
+}
+
+.pager li {
+	border-right: none;
+	border-color: none;
+	border: 1px solid $baseRed;
+	a {
+		background: none;
+	}
+}
+
+.pager li.pager-current {
+	background-color: $baseRed
+}
+
+:@has_childrenT:@options{ :@children[po:Sass::Tree::CommentNode
 :
 @type:normal:@value["\/* This file will hold styles for the mobile version of your website (mobile first). */;@;	[ :
 @lineio;
@@ -1117,4 +1137,30 @@ solid;@;iöo;3	;"baseRed;@;iö;4"baseRed;@;iö; ;!;;;@;i ;	[
 
 ;;;["/** Blog Entry Styling **/;@;	[ ;i£o;#;$["div.field-type-datetime;%o;&;'[o;(;'[o;)
 ;*0;+o;,;-{ ;'[o;.	;["div;/0;0" ;i§o;1;["field-type-datetime;0@;i§;0@;i§;0@;i§;T;@;i ;	[o;;["margin-top;o;;;;"-1.5em;@;;;@;i ;	[ ;i•o;;["padding-bottom;o;;;;"
-1.5em;@;;;@;i ;	[ ;i¶;i§;i
+1.5em;@;;;@;i ;	[ ;i¶;i§o;
+
+;;;["/** Blog Page pager **/;@;	[ ;i®o;#;$["@.pager li.first, .pager li.first a, .pager li.first a:hover;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0" ;i©;0@*;i©o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;i©o;1;["
+first;0@*;i©;0@*;i©o;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0@*;i©;0@*;i©o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;i©o;1;["
+first;0@*;i©;0@*;i©o;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@*;i©;0@*;i©o;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0@*;i©;0@*;i©o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@*;i©o;1;["
+first;0@*;i©;0@*;i©o;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@*;i©o;6
+;["
+hover;;7;80;0@*;i©;0@*;i©;0@*;i©;T;@;i ;	[o;;["border-radius;o;;;;"0;@;;;@;i ;	[ ;i™o;;["-moz-border-radius;o;;;;"0;@;;;@;i ;	[ ;i´o;;["-webkit-border-radius;o;;;;"0;@;;;@;i ;	[ ;i¨;i©o;#;$[".pager li;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0" ;i∞;0@ç;i∞o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@ç;i∞;0@ç;i∞;0@ç;i∞;T;@;i ;	[	o;;["border-right;o;;;;"	none;@;;;@;i ;	[ ;i±o;;["border-color;o;;;;"	none;@;;;@;i ;	[ ;i≤o;;["border;o;	;[o;9;:[ ;;["px;i;@;<"1px;i≥o;	;;;"
+solid;@;i≥o;3	;"baseRed;@;i≥;4"baseRed;@;i≥; ;!;;;@;i ;	[ ;i≥o;#;$["a;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0" ;i¥;0@¿;i¥;0@¿;i¥;T;@;i ;	[o;;["background;o;;;;"	none;@;;;@;i ;	[ ;iµ;i¥;i∞o;#;$[".pager li.pager-current;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0" ;iπ;0@÷;iπo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@÷;iπo;1;["pager-current;0@÷;iπ;0@÷;iπ;0@÷;iπ;T;@;i ;	[o;;["background-color;o;3	;"baseRed;@;i∫;4"baseRed;;;@;i ;	[ ;iª;iπ;i
