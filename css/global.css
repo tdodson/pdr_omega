@@ -808,8 +808,9 @@ div.field-type-datetime {
 .itemlist {
   padding-bottom: 2.5em;
 }
-/* line 691, ../sass/global.scss */
-.itemlist .pager {
+
+/* line 693, ../sass/global.scss */
+.pager {
   background: none;
   border: none;
   border-color: none;
@@ -817,18 +818,19 @@ div.field-type-datetime {
   -moz-border-radius: none;
   -webkit-border-radius: none;
 }
-/* line 698, ../sass/global.scss */
-.itemlist .pager li {
+/* line 700, ../sass/global.scss */
+.pager li {
   border-right: none;
   border-color: none;
   border: 1px solid #991f1f;
 }
-/* line 702, ../sass/global.scss */
-.itemlist .pager li a {
+/* line 704, ../sass/global.scss */
+.pager li a {
   background: none;
 }
-/* line 707, ../sass/global.scss */
-.itemlist .pager li.pager-current, .itemlist .pager li.pager-next, .itemlist .pager li.pager-last, .itemlist .pager li.pager-first, .itemlist .pager li.pager-previous {
+
+/* line 710, ../sass/global.scss */
+.pager li.pager-current, .pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous {
   position: relative;
   top: 0;
   right: 0;
