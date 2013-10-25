@@ -826,7 +826,7 @@ div.field-type-datetime {
 }
 
 /* line 707, ../sass/global.scss */
-.pager li.pager-current, .pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous {
+.pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous, li.pager-last.last {
   position: relative;
   top: 0;
   right: 0;
