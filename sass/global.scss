@@ -678,6 +678,9 @@ div.field-type-datetime {
 	padding-bottom: 1.5em;
 }
 /** Blog Page pager **/
+.item-list .pager {
+	padding-bottom: 2.5em;
+}
 
 .pager li.first, .pager li.first a, .pager li.first a:hover {
 	border-radius: 0;
@@ -685,7 +688,6 @@ div.field-type-datetime {
 	-webkit-border-radius: 0;
 	background: none;
 	background-color: $baseRed;
-
 }
 
 .pager {
