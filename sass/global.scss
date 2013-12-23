@@ -714,4 +714,11 @@ div.field-type-datetime {
 	right: 0;
 	background: none;
 	background-color: none;
+	border: 1px solid $baseRed;
+}
+
+li.pager-last.last {
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
 }

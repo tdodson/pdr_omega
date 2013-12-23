@@ -839,4 +839,12 @@ div.field-type-datetime {
   right: 0;
   background: none;
   background-color: none;
+  border: 1px solid #991f1f;
+}
+
+/* line 720, ../sass/global.scss */
+li.pager-last.last {
+  border-radius: none;
+  -moz-border-radius: none;
+  -webkit-border-radius: none;
 }
