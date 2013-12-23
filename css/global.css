@@ -828,7 +828,7 @@ div.field-type-datetime {
   border: 1px solid #991f1f;
 }
 /* line 705, ../sass/global.scss */
-.pager li.first, .pager li.first a, .pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
+.pager li.first, .pager li.first a, .pager li.first a:hover, .pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;

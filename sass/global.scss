@@ -702,7 +702,7 @@ div.field-type-datetime {
 			background-color: none;
 			border: 1px solid $baseRed;
 		}
-		&.first, &.first a, &.pager-last, &.pager-last a, &.pager-last a:hover {
+		&.first, &.first a, &.first a:hover, &.pager-last, &.pager-last a, &.pager-last a:hover {
 			border-radius: 0;
 			-moz-border-radius: 0;
 			-webkit-border-radius: 0;
