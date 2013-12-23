@@ -841,28 +841,12 @@ div.field-type-datetime {
 }
 
 /* line 718, ../sass/global.scss */
-.pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous, li.pager-last.last {
-  position: relative;
-  top: 0;
-  right: 0;
-  background: none;
-  background-color: none;
-  border: 1px solid #991f1f;
+.pager li.first .pager-current {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #1a1a1a), color-stop(1, #5a5a5a));
+  background: -moz-linear-gradient(top center, #1a1a1a 0%, #5a5a5a 100%);
 }
 
-/* line 727, ../sass/global.scss */
-.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
-  border-radius: none !important;
-  -moz-border-radius: none !important;
-  -webkit-border-radius: none !important;
-}
-
-/* line 733, ../sass/global.scss */
-.pager li.first, .pager li.first a, .pager li.first a:hover {
-  background-color: none !important;
-}
-
-/* line 737, ../sass/global.scss */
+/* line 723, ../sass/global.scss */
 p.online-item {
   margin: 0 0.3em 0.3em 0.6em;
 }
