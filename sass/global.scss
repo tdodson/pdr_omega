@@ -682,11 +682,7 @@ div.field-type-datetime {
 	padding-bottom: 2.5em;
 }
 
-.pager li.first, .pager li.first a, .pager li.first a:hover {
-	border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	background: none;
+.pager li.first a:hover {
 	background-color: $baseRed;
 }
 
@@ -702,27 +698,23 @@ div.field-type-datetime {
 		border-right: none;
 		border-color: none;
 		border: 1px solid $baseRed;
+		&.pager-next, &.pager-last, &.pager-first, &.pager-previous, &.pager-last.last {
+			position: relative;
+			top: 0;
+			right: 0;
+			background: none;
+			background-color: none;
+			border: 1px solid $baseRed;
+		}
+		&.first, &.first a, &.pager-last, &.pager-last a, &.pager-last a:hover {
+			border-radius: 0;
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			background: none;
+			background-color: none;
+		}
 		a {
 			background: none;
 		}
 	}
-}
-
-.pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous, li.pager-last.last {
-	position: relative;
-	top: 0;
-	right: 0;
-	background: none;
-	background-color: none;
-	border: 1px solid $baseRed;
-}
-
-.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
-	border-radius: none !important;
-	-moz-border-radius: none !important;
-	-webkit-border-radius: none !important;
-}
-
-.pager li.first, .pager li.first a, .pager li.first a:hover {
-	background-color: none !important;
 }

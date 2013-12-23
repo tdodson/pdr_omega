@@ -803,15 +803,11 @@ div.field-type-datetime {
 }
 
 /* line 685, ../sass/global.scss */
-.pager li.first, .pager li.first a, .pager li.first a:hover {
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  background: none;
+.pager li.first a:hover {
   background-color: #991f1f;
 }
 
-/* line 693, ../sass/global.scss */
+/* line 689, ../sass/global.scss */
 .pager {
   padding-bottom: 2.5em;
   background: none;
@@ -821,19 +817,14 @@ div.field-type-datetime {
   -moz-border-radius: none;
   -webkit-border-radius: none;
 }
-/* line 701, ../sass/global.scss */
+/* line 697, ../sass/global.scss */
 .pager li {
   border-right: none;
   border-color: none;
   border: 1px solid #991f1f;
 }
-/* line 705, ../sass/global.scss */
-.pager li a {
-  background: none;
-}
-
-/* line 711, ../sass/global.scss */
-.pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous, li.pager-last.last {
+/* line 701, ../sass/global.scss */
+.pager li.pager-next, .pager li.pager-last, .pager li.pager-first, .pager li.pager-previous, .pager li.pager-last.last {
   position: relative;
   top: 0;
   right: 0;
@@ -841,15 +832,15 @@ div.field-type-datetime {
   background-color: none;
   border: 1px solid #991f1f;
 }
-
-/* line 720, ../sass/global.scss */
-.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
-  border-radius: none !important;
-  -moz-border-radius: none !important;
-  -webkit-border-radius: none !important;
+/* line 709, ../sass/global.scss */
+.pager li.first, .pager li.first a, .pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  background: none;
+  background-color: none;
 }
-
-/* line 726, ../sass/global.scss */
-.pager li.first, .pager li.first a, .pager li.first a:hover {
-  background-color: none !important;
+/* line 716, ../sass/global.scss */
+.pager li a {
+  background: none;
 }
