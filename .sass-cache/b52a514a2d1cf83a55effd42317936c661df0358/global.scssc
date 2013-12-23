@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-e6eb6007039f4c5812feda585fa39f0cff31dc5b
+72fd4bab59026eedf43f2227bf9011a22f2a3d98
 o:Sass::Tree::RootNode
-:@template"ó,/* This file will hold styles for the mobile version of your website (mobile first). */
+:@template"P-/* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /* Import SASS Base Partial */
@@ -721,13 +721,13 @@ div.field-type-datetime {
 }
 
 .pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
-	border-radius: none;
-	-moz-border-radius: none;
-	-webkit-border-radius: none;
+	border-radius: none !important;
+	-moz-border-radius: none !important;
+	-webkit-border-radius: none !important;
 }
 
-li.first a {
-	background-color: none;
+.pager li.first, .pager li.first a, .pager li.first a:hover {
+	background-color: none !important;
 }
 :@has_childrenT:@options{ :@children[so:Sass::Tree::CommentNode
 :
@@ -1223,7 +1223,20 @@ pager;0@Ã;iÐ;0@Ã;iÐo;)
 ;*0;+o;,;-{ ;'[o;.	;["li;/0;0@Ã;iÐo;1;["pager-last;0@Ã;iÐ;0@Ã;iÐo;)
 ;*0;+o;,;-{ ;'[o;.	;["a;/0;0@Ã;iÐo;6
 ;["
-hover;;7;80;0@Ã;iÐ;0@Ã;iÐ;0@Ã;iÐ;T;@;i ;	[o;;["border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÑo;;["-moz-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÒo;;["-webkit-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÓ;iÐo;#;$["li.first a;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0" ;iÖo;1;["
+hover;;7;80;0@Ã;iÐ;0@Ã;iÐ;0@Ã;iÐ;T;@;i ;	[o;;["border-radius;o;;;;"none !important;@;;;@;i ;	[ ;iÑo;;["-moz-border-radius;o;;;;"none !important;@;;;@;i ;	[ ;iÒo;;["-webkit-border-radius;o;;;;"none !important;@;;;@;i ;	[ ;iÓ;iÐo;#;$["@.pager li.first, .pager li.first a, .pager li.first a:hover;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0" ;iÖ;0@&;iÖo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@&;iÖo;1;["
+first;0@&;iÖ;0@&;iÖo;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0@&;iÖ;0@&;iÖo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@&;iÖo;1;["
 first;0@&;iÖ;0@&;iÖo;)
-;*0;+o;,;-{ ;'[o;.	;["a;/0;0@&;iÖ;0@&;iÖ;0@&;iÖ;T;@;i ;	[o;;["background-color;o;;;;"	none;@;;;@;i ;	[ ;i×;iÖ;i
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@&;iÖ;0@&;iÖo;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0@&;iÖ;0@&;iÖo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@&;iÖo;1;["
+first;0@&;iÖ;0@&;iÖo;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@&;iÖo;6
+;["
+hover;;7;80;0@&;iÖ;0@&;iÖ;0@&;iÖ;T;@;i ;	[o;;["background-color;o;;;;"none !important;@;;;@;i ;	[ ;i×;iÖ;i

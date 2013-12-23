@@ -844,12 +844,12 @@ div.field-type-datetime {
 
 /* line 720, ../sass/global.scss */
 .pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
-  border-radius: none;
-  -moz-border-radius: none;
-  -webkit-border-radius: none;
+  border-radius: none !important;
+  -moz-border-radius: none !important;
+  -webkit-border-radius: none !important;
 }
 
 /* line 726, ../sass/global.scss */
-li.first a {
-  background-color: none;
+.pager li.first, .pager li.first a, .pager li.first a:hover {
+  background-color: none !important;
 }

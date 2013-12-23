@@ -718,11 +718,11 @@ div.field-type-datetime {
 }
 
 .pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
-	border-radius: none;
-	-moz-border-radius: none;
-	-webkit-border-radius: none;
+	border-radius: none !important;
+	-moz-border-radius: none !important;
+	-webkit-border-radius: none !important;
 }
 
-li.first a {
-	background-color: none;
+.pager li.first, .pager li.first a, .pager li.first a:hover {
+	background-color: none !important;
 }
