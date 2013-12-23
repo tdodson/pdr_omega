@@ -843,8 +843,13 @@ div.field-type-datetime {
 }
 
 /* line 720, ../sass/global.scss */
-li.pager-last.last {
+.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
   border-radius: none;
   -moz-border-radius: none;
   -webkit-border-radius: none;
+}
+
+/* line 726, ../sass/global.scss */
+li.first a {
+  background-color: none;
 }

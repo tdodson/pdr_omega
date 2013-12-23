@@ -1,7 +1,7 @@
 3.2.9 (Media Mark)
-e0298baff8a66a567674dfc2daacb8e278570715
+e6eb6007039f4c5812feda585fa39f0cff31dc5b
 o:Sass::Tree::RootNode
-:@template"’,/* This file will hold styles for the mobile version of your website (mobile first). */
+:@template"ó,/* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /* Import SASS Base Partial */
@@ -720,12 +720,16 @@ div.field-type-datetime {
 	border: 1px solid $baseRed;
 }
 
-li.pager-last.last {
+.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover {
 	border-radius: none;
 	-moz-border-radius: none;
 	-webkit-border-radius: none;
 }
-:@has_childrenT:@options{ :@children[ro:Sass::Tree::CommentNode
+
+li.first a {
+	background-color: none;
+}
+:@has_childrenT:@options{ :@children[so:Sass::Tree::CommentNode
 :
 @type:normal:@value["\/* This file will hold styles for the mobile version of your website (mobile first). */;@;	[ :
 @lineio;
@@ -1206,5 +1210,20 @@ pager;0@3;iÇ;0@3;iÇo;)
 ;*0;+o;,;-{ ;'[o;.	;["li;/0;0@3;iÇo;1;["pager-previous;0@3;iÇ;0@3;iÇo;(;'[o;)
 ;*0;+o;,;-{ ;'[o;.	;["li;/0;0@3;iÇo;1;["pager-last;0@3;iÇo;1;["	last;0@3;iÇ;0@3;iÇ;0@3;iÇ;T;@;i ;	[o;;["position;o;;;;"relative;@;;;@;i ;	[ ;iÈo;;["top;o;;;;"0;@;;;@;i ;	[ ;iÉo;;["
 right;o;;;;"0;@;;;@;i ;	[ ;iÊo;;["background;o;;;;"	none;@;;;@;i ;	[ ;iËo;;["background-color;o;;;;"	none;@;;;@;i ;	[ ;iÌo;;["border;o;	;[o;9;:[ ;;["px;i;@;<"1px;iÍo;	;;;"
-solid;@;iÍo;3	;"baseRed;@;iÍ;4"baseRed;@;iÍ; ;!;;;@;i ;	[ ;iÍ;iÇo;#;$["li.pager-last.last;%o;&;'[o;(;'[o;)
-;*0;+o;,;-{ ;'[o;.	;["li;/0;0" ;iÐo;1;["pager-last;0@Ã;iÐo;1;["	last;0@Ã;iÐ;0@Ã;iÐ;0@Ã;iÐ;T;@;i ;	[o;;["border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÑo;;["-moz-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÒo;;["-webkit-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÓ;iÐ;i
+solid;@;iÍo;3	;"baseRed;@;iÍ;4"baseRed;@;iÍ; ;!;;;@;i ;	[ ;iÍ;iÇo;#;$["O.pager li.pager-last, .pager li.pager-last a, .pager li.pager-last a:hover;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0" ;iÐ;0@Ã;iÐo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@Ã;iÐo;1;["pager-last;0@Ã;iÐ;0@Ã;iÐo;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0@Ã;iÐ;0@Ã;iÐo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@Ã;iÐo;1;["pager-last;0@Ã;iÐ;0@Ã;iÐo;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@Ã;iÐ;0@Ã;iÐo;(;'[o;)
+;*0;+o;,;-{ ;'[o;1;["
+pager;0@Ã;iÐ;0@Ã;iÐo;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0@Ã;iÐo;1;["pager-last;0@Ã;iÐ;0@Ã;iÐo;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@Ã;iÐo;6
+;["
+hover;;7;80;0@Ã;iÐ;0@Ã;iÐ;0@Ã;iÐ;T;@;i ;	[o;;["border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÑo;;["-moz-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÒo;;["-webkit-border-radius;o;;;;"	none;@;;;@;i ;	[ ;iÓ;iÐo;#;$["li.first a;%o;&;'[o;(;'[o;)
+;*0;+o;,;-{ ;'[o;.	;["li;/0;0" ;iÖo;1;["
+first;0@&;iÖ;0@&;iÖo;)
+;*0;+o;,;-{ ;'[o;.	;["a;/0;0@&;iÖ;0@&;iÖ;0@&;iÖ;T;@;i ;	[o;;["background-color;o;;;;"	none;@;;;@;i ;	[ ;i×;iÖ;i
