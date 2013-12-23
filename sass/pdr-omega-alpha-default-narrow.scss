@@ -21,6 +21,9 @@ body.front {
 			font-size: 90%;
 			line-height: 125%;
 			margin-bottom: 0;
+			&.front-contact {
+				padding-top: 50px;
+			}
 		}
 	}
 	button#currentbtn {

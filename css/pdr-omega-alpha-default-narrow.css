@@ -26,45 +26,49 @@ body.front #region-user-second p {
   line-height: 125%;
   margin-bottom: 0;
 }
-/* line 26, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 24, ../sass/pdr-omega-alpha-default-narrow.scss */
+body.front #region-user-second p.front-contact {
+  padding-top: 50px;
+}
+/* line 29, ../sass/pdr-omega-alpha-default-narrow.scss */
 body.front button#currentbtn {
   margin-top: 3.55em;
 }
-/* line 29, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 32, ../sass/pdr-omega-alpha-default-narrow.scss */
 body.front #region-postscript-first, body.front #region-postscript-second, body.front #region-postscript-third {
   margin-top: 0.25em;
   padding-top: 0em;
 }
-/* line 33, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 36, ../sass/pdr-omega-alpha-default-narrow.scss */
 body.front #region-postscript-third {
   padding-bottom: 0;
 }
 
 /* End Frontpage Delta Styling */
-/* line 38, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 41, ../sass/pdr-omega-alpha-default-narrow.scss */
 #region-user-second ul {
   float: none;
   padding: 49px 0 0 0;
 }
 
 /* Button Show */
-/* line 44, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 47, ../sass/pdr-omega-alpha-default-narrow.scss */
 button#submitbtn {
   display: inline;
 }
 
-/* line 48, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 51, ../sass/pdr-omega-alpha-default-narrow.scss */
 button#currentbtn {
   display: inline;
 }
 
 /*** REGION & ZONE POSITIONING ***/
-/* line 53, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 56, ../sass/pdr-omega-alpha-default-narrow.scss */
 #block-search-form {
   padding-top: 10px;
 }
 
-/* line 57, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 60, ../sass/pdr-omega-alpha-default-narrow.scss */
 #region-sidebar-second .frommag, #region-sidebar-second .fromblog {
   padding-bottom: 0em;
   text-indent: -2em;
@@ -72,22 +76,22 @@ button#currentbtn {
 }
 
 /*** Work Styling ***/
-/* line 65, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 68, ../sass/pdr-omega-alpha-default-narrow.scss */
 div#work p {
   font-size: 150%;
 }
 
 /*** Table Styling ***/
-/* line 71, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 74, ../sass/pdr-omega-alpha-default-narrow.scss */
 td.views-field-body {
   display: table-cell;
 }
 
-/* line 75, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 78, ../sass/pdr-omega-alpha-default-narrow.scss */
 td.views-field-title {
   min-width: 180px;
 }
-/* line 77, ../sass/pdr-omega-alpha-default-narrow.scss */
+/* line 80, ../sass/pdr-omega-alpha-default-narrow.scss */
 td.views-field-title a {
   display: inline;
   text-align: center;
