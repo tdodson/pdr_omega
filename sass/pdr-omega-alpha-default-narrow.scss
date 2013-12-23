@@ -11,6 +11,17 @@ body.front {
 		width: 357px;
 		height: 100px;
 	}
+	#region-user-second {
+		display: block;
+		h2 {
+			display: none;
+		}
+		p {
+			font-size: 90%;
+			line-height: 125%;
+			margin-bottom: 0;
+		}
+	}
 	button#currentbtn {
 		margin-top: 3.55em;
 	}

@@ -118,7 +118,7 @@ a:visited {
 
 /*** Frontpage Delta Styling ***/
 /* line 93, ../sass/global.scss */
-body.front #region-user-second button#submitbtn {
+body.front #region-user-second {
   display: none;
 }
 /* line 97, ../sass/global.scss */
